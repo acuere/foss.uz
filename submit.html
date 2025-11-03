@@ -10,93 +10,97 @@
     <header class="header">
         <nav class="nav">
             <div class="nav-brand">
-                <a href="/">Faces of Open Source Uzbekistan</a>
+                <a href="/" data-i18n="nav.brand">Faces of Open Source Uzbekistan</a>
             </div>
             <button class="menu-toggle" aria-label="Toggle menu">☰</button>
             <ul class="nav-menu">
-                <li><a href="/">ALL FACES</a></li>
-                <li><a href="about.html">ABOUT</a></li>
-                <li><a href="submit.html">SUBMIT</a></li>
-                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="/" data-i18n="nav.allFaces">ALL FACES</a></li>
+                <li><a href="about.html" data-i18n="nav.about">ABOUT</a></li>
+                <li><a href="submit.html" data-i18n="nav.submit">SUBMIT</a></li>
+                <li><a href="contact.html" data-i18n="nav.contact">CONTACT</a></li>
             </ul>
+            <div class="lang-switcher">
+                <button class="lang-btn" data-lang="en">EN</button>
+                <button class="lang-btn" data-lang="uz">UZ</button>
+            </div>
         </nav>
     </header>
 
     <main class="main content-page">
         <article>
-            <h1>Submit a Person</h1>
-            <p class="intro">Know someone making a significant contribution to open source in Uzbekistan? Nominate them to be featured in this project!</p>
+            <h1 data-i18n="submit.title">Submit a Person</h1>
+            <p class="intro" data-i18n="submit.intro">Know someone making a significant contribution to open source in Uzbekistan? Nominate them to be featured in this project!</p>
 
             <form id="submission-form" class="submission-form">
                 <div class="form-section">
-                    <h2>Submission Method</h2>
+                    <h2 data-i18n="submit.methodTitle">Submission Method</h2>
                     
                     <div class="form-group">
-                        <label>How would you like to submit? *</label>
+                        <label data-i18n="submit.methodQuestion">How would you like to submit? *</label>
                         <div class="radio-group">
                             <label class="radio-label">
                                 <input type="radio" name="submission-method" value="github" checked>
-                                <span>Create GitHub Pull Request (Recommended)</span>
+                                <span data-i18n="submit.methodGithub">Create GitHub Pull Request (Recommended)</span>
                             </label>
                             <label class="radio-label">
                                 <input type="radio" name="submission-method" value="email">
-                                <span>Send via Email</span>
+                                <span data-i18n="submit.methodEmail">Send via Email</span>
                             </label>
                         </div>
-                        <p class="help-text">GitHub PR allows the community to review and discuss. Email is for private submissions.</p>
+                        <p class="help-text" data-i18n="submit.methodHelp">GitHub PR allows the community to review and discuss. Email is for private submissions.</p>
                     </div>
                 </div>
 
                 <div class="form-section">
-                    <h2>Person Being Nominated</h2>
+                    <h2 data-i18n="submit.nomineeTitle">Person Being Nominated</h2>
                     
                     <div class="form-group">
-                        <label for="nominee-name">Full Name *</label>
+                        <label for="nominee-name" data-i18n="submit.fullName">Full Name *</label>
                         <input type="text" id="nominee-name" name="nominee-name" required>
                     </div>
 
                     <div class="form-group">
-                        <label for="nominee-github">GitHub Username</label>
+                        <label for="nominee-github" data-i18n="submit.githubUsername">GitHub Username</label>
                         <input type="text" id="nominee-github" name="nominee-github" placeholder="@username">
                     </div>
 
                     <div class="form-group">
-                        <label for="nominee-email">Email Address</label>
+                        <label for="nominee-email" data-i18n="submit.email">Email Address</label>
                         <input type="email" id="nominee-email" name="nominee-email">
                     </div>
 
                     <div class="form-group">
-                        <label for="nominee-location">Location in Uzbekistan *</label>
-                        <input type="text" id="nominee-location" name="nominee-location" placeholder="e.g., Tashkent, Samarkand" required>
+                        <label for="nominee-location" data-i18n="submit.location">Location in Uzbekistan *</label>
+                        <input type="text" id="nominee-location" name="nominee-location" data-i18n-placeholder="submit.locationPlaceholder" placeholder="e.g., Tashkent, Samarkand" required>
                     </div>
                 </div>
 
                 <div class="form-section">
-                    <h2>Open Source Contributions</h2>
+                    <h2 data-i18n="submit.contributionsTitle">Open Source Contributions</h2>
                     
                     <div class="form-group">
-                        <label for="projects">Main Projects/Contributions *</label>
-                        <textarea id="projects" name="projects" rows="4" placeholder="List the main open source projects they maintain or contribute to" required></textarea>
+                        <label for="projects" data-i18n="submit.projects">Main Projects/Contributions *</label>
+                        <textarea id="projects" name="projects" rows="4" data-i18n-placeholder="submit.projectsPlaceholder" placeholder="List the main open source projects they maintain or contribute to" required></textarea>
                     </div>
 
                     <div class="form-group">
-                        <label for="impact">Impact & Achievements *</label>
-                        <textarea id="impact" name="impact" rows="4" placeholder="Describe their impact on the open source community, notable achievements, or why they should be featured" required></textarea>
+                        <label for="impact" data-i18n="submit.impact">Impact & Achievements *</label>
+                        <textarea id="impact" name="impact" rows="4" data-i18n-placeholder="submit.impactPlaceholder" placeholder="Describe their impact on the open source community, notable achievements, or why they should be featured" required></textarea>
                     </div>
 
                     <div class="form-group">
-                        <label for="links">Relevant Links</label>
-                        <textarea id="links" name="links" rows="3" placeholder="GitHub profile, personal website, project links, etc. (one per line)"></textarea>
+                        <label for="links" data-i18n="submit.links">Relevant Links</label>
+                        <textarea id="links" name="links" rows="3" data-i18n-placeholder="submit.linksPlaceholder" placeholder="GitHub profile, personal website, project links, etc. (one per line)"></textarea>
                     </div>
                 </div>
 
                 <div class="form-section">
-                    <h2>Portrait Photo (Optional)</h2>
+                    <h2 data-i18n="submit.photoTitle">Portrait Photo (Optional)</h2>
                     
                     <div class="form-group">
-                        <label for="photo">Upload Portrait Photo</label>
+                        <label for="photo" data-i18n="submit.uploadPhoto">Upload Portrait Photo</label>
                         <input type="file" id="photo" name="photo" accept="image/jpeg,image/jpg,image/png">
-                        <p class="help-text">
+                        <p class="help-text" data-i18n="submit.photoHelp">
                             Upload a high-quality portrait photo (JPG or PNG, max 5MB). 
                             Black & white preferred. Recommended size: 1200x1600px (3:4 ratio).
                         </p>
@@ -104,64 +108,65 @@
                     </div>
 
                     <div class="form-group">
-                        <label for="photo-url">Or Provide Photo URL</label>
-                        <input type="url" id="photo-url" name="photo-url" placeholder="https://example.com/photo.jpg">
-                        <p class="help-text">If you can't upload, provide a URL to the photo (Dropbox, Google Drive, etc.)</p>
+                        <label for="photo-url" data-i18n="submit.photoUrl">Or Provide Photo URL</label>
+                        <input type="url" id="photo-url" name="photo-url" data-i18n-placeholder="submit.photoUrlPlaceholder" placeholder="https://example.com/photo.jpg">
+                        <p class="help-text" data-i18n="submit.photoUrlHelp">If you can't upload, provide a URL to the photo (Dropbox, Google Drive, etc.)</p>
                     </div>
                 </div>
 
                 <div class="form-section">
-                    <h2>Your Information</h2>
+                    <h2 data-i18n="submit.submitterTitle">Your Information</h2>
                     
                     <div class="form-group">
-                        <label for="submitter-name">Your Name *</label>
+                        <label for="submitter-name" data-i18n="submit.yourName">Your Name *</label>
                         <input type="text" id="submitter-name" name="submitter-name" required>
                     </div>
 
                     <div class="form-group">
-                        <label for="submitter-email">Your Email *</label>
+                        <label for="submitter-email" data-i18n="submit.yourEmail">Your Email *</label>
                         <input type="email" id="submitter-email" name="submitter-email" required>
                     </div>
 
                     <div class="form-group">
-                        <label for="submitter-relationship">Your Relationship to Nominee</label>
+                        <label for="submitter-relationship" data-i18n="submit.relationship">Your Relationship to Nominee</label>
                         <select id="submitter-relationship" name="submitter-relationship">
-                            <option value="">Select one</option>
-                            <option value="self">Self-nomination</option>
-                            <option value="colleague">Colleague/Co-worker</option>
-                            <option value="community">Community member</option>
-                            <option value="friend">Friend</option>
-                            <option value="other">Other</option>
+                            <option value="" data-i18n="submit.relationshipSelect">Select one</option>
+                            <option value="self" data-i18n="submit.relationshipSelf">Self-nomination</option>
+                            <option value="colleague" data-i18n="submit.relationshipColleague">Colleague/Co-worker</option>
+                            <option value="community" data-i18n="submit.relationshipCommunity">Community member</option>
+                            <option value="friend" data-i18n="submit.relationshipFriend">Friend</option>
+                            <option value="other" data-i18n="submit.relationshipOther">Other</option>
                         </select>
                     </div>
 
                     <div class="form-group">
-                        <label for="additional-info">Additional Information</label>
-                        <textarea id="additional-info" name="additional-info" rows="3" placeholder="Any other information you'd like to share"></textarea>
+                        <label for="additional-info" data-i18n="submit.additionalInfo">Additional Information</label>
+                        <textarea id="additional-info" name="additional-info" rows="3" data-i18n-placeholder="submit.additionalInfoPlaceholder" placeholder="Any other information you'd like to share"></textarea>
                     </div>
                 </div>
 
                 <div class="form-actions">
-                    <button type="submit" class="btn-primary">Submit Nomination</button>
+                    <button type="submit" class="btn-primary" data-i18n="submit.submitButton">Submit Nomination</button>
                 </div>
 
                 <div id="form-message" class="form-message"></div>
             </form>
 
             <div class="submission-note">
-                <h3>What Happens Next?</h3>
-                <p>After you submit a nomination, we'll review the information and reach out to the nominee to arrange a photoshoot and interview. All submissions will be collected as GitHub Issues in our repository for transparency and community involvement.</p>
+                <h3 data-i18n="submit.nextTitle">What Happens Next?</h3>
+                <p data-i18n="submit.nextText">After you submit a nomination, we'll review the information and reach out to the nominee to arrange a photoshoot and interview. All submissions will be collected as GitHub Issues in our repository for transparency and community involvement.</p>
             </div>
         </article>
     </main>
 
     <footer class="footer">
-        <p>&copy; 2025 Faces of Open Source Uzbekistan. All rights reserved.</p>
+        <p data-i18n="footer.copyright">&copy; 2025 Faces of Open Source Uzbekistan. All rights reserved.</p>
         <div class="social-links">
             <a href="https://github.com/yourusername/foss.uz" target="_blank" aria-label="GitHub">GitHub</a>
         </div>
     </footer>
 
+    <script src="js/translations.js"></script>
     <script src="js/main.js"></script>
     <script src="js/submit.js"></script>
 </body>

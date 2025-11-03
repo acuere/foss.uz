@@ -33,22 +33,26 @@
     <header class="header">
         <nav class="nav">
             <div class="nav-brand">
-                <a href="/">Faces of Open Source Uzbekistan</a>
+                <a href="/" data-i18n="nav.brand">Faces of Open Source Uzbekistan</a>
             </div>
             <button class="menu-toggle" aria-label="Toggle menu">☰</button>
             <ul class="nav-menu">
-                <li><a href="/">ALL FACES</a></li>
-                <li><a href="about.html">ABOUT</a></li>
-                <li><a href="submit.html">SUBMIT</a></li>
-                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="/" data-i18n="nav.allFaces">ALL FACES</a></li>
+                <li><a href="about.html" data-i18n="nav.about">ABOUT</a></li>
+                <li><a href="submit.html" data-i18n="nav.submit">SUBMIT</a></li>
+                <li><a href="contact.html" data-i18n="nav.contact">CONTACT</a></li>
             </ul>
+            <div class="lang-switcher">
+                <button class="lang-btn" data-lang="en">EN</button>
+                <button class="lang-btn" data-lang="uz">UZ</button>
+            </div>
         </nav>
     </header>
 
     <main class="main">
         <section class="hero">
-            <h1>Faces of Open Source Uzbekistan</h1>
-            <p class="tagline">An on-going photographic documentation of the people behind the development and advancement of open source in Uzbekistan.</p>
+            <h1 data-i18n="home.title">Faces of Open Source Uzbekistan</h1>
+            <p class="tagline" data-i18n="home.tagline">An on-going photographic documentation of the people behind the development and advancement of open source in Uzbekistan.</p>
         </section>
 
         <section class="gallery" id="gallery">
@@ -57,12 +61,13 @@
     </main>
 
     <footer class="footer">
-        <p>&copy; 2025 Faces of Open Source Uzbekistan. All rights reserved.</p>
+        <p data-i18n="footer.copyright">&copy; 2025 Faces of Open Source Uzbekistan. All rights reserved.</p>
         <div class="social-links">
             <a href="https://github.com/yourusername/foss.uz" target="_blank" aria-label="GitHub">GitHub</a>
         </div>
     </footer>
 
+    <script src="js/translations.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>

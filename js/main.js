@@ -26,13 +26,18 @@ async function loadGallery() {
         if (people.length === 0) {
             gallery.innerHTML = `
                 <div style="grid-column: 1/-1; text-align: center; padding: 4rem 2rem; color: #666;">
-                    <h2 style="font-size: 1.5rem; margin-bottom: 1rem;">Coming Soon</h2>
-                    <p>We're currently gathering stories and portraits of open source contributors in Uzbekistan.</p>
+                    <h2 style="font-size: 1.5rem; margin-bottom: 1rem;" data-i18n="home.comingSoon">Coming Soon</h2>
+                    <p data-i18n="home.gathering">We're currently gathering stories and portraits of open source contributors in Uzbekistan.</p>
                     <p style="margin-top: 1rem;">
-                        <a href="submit.html" style="text-decoration: underline;">Submit a nomination</a> to help us get started!
+                        <a href="submit.html" style="text-decoration: underline;" data-i18n="home.submitLink">Submit a nomination</a>
+                        <span data-i18n="home.getStarted">to help us get started!</span>
                     </p>
                 </div>
             `;
+            // Update translations for dynamically added content
+            if (typeof updatePageTranslations === 'function') {
+                updatePageTranslations(getCurrentLanguage());
+            }
             return;
         }
         
@@ -44,13 +49,18 @@ async function loadGallery() {
         console.log('No people data found, showing placeholder');
         gallery.innerHTML = `
             <div style="grid-column: 1/-1; text-align: center; padding: 4rem 2rem; color: #666;">
-                <h2 style="font-size: 1.5rem; margin-bottom: 1rem;">Coming Soon</h2>
-                <p>We're currently gathering stories and portraits of open source contributors in Uzbekistan.</p>
+                <h2 style="font-size: 1.5rem; margin-bottom: 1rem;" data-i18n="home.comingSoon">Coming Soon</h2>
+                <p data-i18n="home.gathering">We're currently gathering stories and portraits of open source contributors in Uzbekistan.</p>
                 <p style="margin-top: 1rem;">
-                    <a href="submit.html" style="text-decoration: underline;">Submit a nomination</a> to help us get started!
+                    <a href="submit.html" style="text-decoration: underline;" data-i18n="home.submitLink">Submit a nomination</a>
+                    <span data-i18n="home.getStarted">to help us get started!</span>
                 </p>
             </div>
         `;
+        // Update translations for dynamically added content
+        if (typeof updatePageTranslations === 'function') {
+            updatePageTranslations(getCurrentLanguage());
+        }
     }
 }
 

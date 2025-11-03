@@ -27,14 +27,14 @@ function handlePhotoSelect(e) {
     // Validate file size (5MB max)
     const maxSize = 5 * 1024 * 1024; // 5MB
     if (file.size > maxSize) {
-        alert('Photo is too large! Please upload a file smaller than 5MB.');
+        alert(t('form.photoTooLarge'));
         e.target.value = '';
         return;
     }
     
     // Validate file type
     if (!file.type.match('image/(jpeg|jpg|png)')) {
-        alert('Please upload a JPG or PNG image.');
+        alert(t('form.photoWrongType'));
         e.target.value = '';
         return;
     }
@@ -74,9 +74,7 @@ async function handleSubmit(e) {
         }
         
     } catch (error) {
-        showMessage(messageDiv, 'error', 
-            'There was an error submitting your nomination. Please try again or contact us directly.'
-        );
+        showMessage(messageDiv, 'error', t('form.error'));
     }
 }
 
@@ -90,13 +88,13 @@ function handleGitHubSubmission(data, photoFile) {
     // Show message and open GitHub
     const messageDiv = document.getElementById('form-message');
     
-    let message = 'Opening GitHub to create your nomination issue. ';
+    let message = t('form.githubSuccess') + ' ';
     if (photoFile) {
-        message += 'Note: You\'ll need to attach the photo file manually in the GitHub issue (drag & drop it into the comment box). ';
+        message += t('form.githubPhotoNote') + ' ';
     } else if (data['photo-url']) {
-        message += 'Photo URL has been included in the issue. ';
+        message += t('form.githubPhotoUrl') + ' ';
     }
-    message += 'The issue will be reviewed by the community!';
+    message += t('form.githubReview');
     
     showMessage(messageDiv, 'success', message);
     
@@ -116,11 +114,11 @@ function handleEmailSubmission(data, photoFile) {
     // Show message and open email client
     const messageDiv = document.getElementById('form-message');
     
-    let message = 'Opening your email client to send the nomination. ';
+    let message = t('form.emailSuccess') + ' ';
     if (photoFile) {
-        message += 'Please attach the photo file to your email before sending. ';
+        message += t('form.emailPhotoNote') + ' ';
     }
-    message += 'Please review and send the email!';
+    message += t('form.emailReview');
     
     showMessage(messageDiv, 'success', message);
     
