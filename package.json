@@ -1,0 +1,28 @@
+{
+  "name": "foss-uz",
+  "version": "1.0.0",
+  "description": "Faces of Open Source Uzbekistan - An on-going photographic documentation of the people behind open source in Uzbekistan",
+  "scripts": {
+    "dev": "python3 -m http.server 8000",
+    "serve": "python3 -m http.server 8000",
+    "deploy": "wrangler pages deploy . --project-name=foss-uz",
+    "deploy:production": "wrangler pages deploy . --project-name=foss-uz --branch=main"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acuere/foss.uz.git"
+  },
+  "keywords": [
+    "open-source",
+    "uzbekistan",
+    "photography",
+    "community",
+    "faces"
+  ],
+  "author": "Faces of Open Source Uzbekistan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/acuere/foss.uz/issues"
+  },
+  "homepage": "https://facesofopensource.uz"
+}
