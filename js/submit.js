@@ -109,7 +109,7 @@ function handleEmailSubmission(data, photoFile) {
     const body = encodeURIComponent(createEmailBody(data, photoFile));
     
     // Create mailto link
-    const mailtoUrl = `mailto:hello@facesofopensource.uz?subject=${subject}&body=${body}`;
+    const mailtoUrl = `mailto:t.ibrokhims@gmail.com?subject=${subject}&body=${body}`;
     
     // Show message and open email client
     const messageDiv = document.getElementById('form-message');

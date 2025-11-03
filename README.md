@@ -41,7 +41,7 @@ foss.uz/
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/foss.uz.git
+   git clone https://github.com/acuere/foss.uz.git
    cd foss.uz
    ```
 
@@ -174,10 +174,10 @@ When users select "GitHub PR" on the submission form, they'll be redirected to c
 - No additional setup required!
 
 ### 2. Email Submission
-When users select "Email", their default email client opens with a pre-filled message to `hello@facesofopensource.uz`.
+When users select "Email", their default email client opens with a pre-filled message to `t.ibrokhims@gmail.com`.
 
 **To set up email:**
-- Configure email forwarding for `hello@facesofopensource.uz`
+- Configure email forwarding for `t.ibrokhims@gmail.com`
 - Or update the email address in `js/submit.js`
 
 ## 🚀 Cloudflare Setup
@@ -222,7 +222,7 @@ export default {
     
     const data = await request.json();
     
-    const response = await fetch('https://api.github.com/repos/yourusername/foss.uz/issues', {
+    const response = await fetch('https://api.github.com/repos/acuere/foss.uz/issues', {
       method: 'POST',
       headers: {
         'Authorization': `token ${env.GITHUB_TOKEN}`,
@@ -256,8 +256,9 @@ We welcome contributions! Here's how you can help:
 ## 📧 Contact
 
 - **Website:** [facesofopensource.uz](https://facesofopensource.uz)
-- **Email:** hello@facesofopensource.uz
-- **GitHub:** [github.com/yourusername/foss.uz](https://github.com/yourusername/foss.uz)
+- **Email:** t.ibrokhims@gmail.com
+- **GitHub:** [github.com/acuere/foss.uz](https://github.com/acuere/foss.uz)
+- **Telegram Community:** [@flossuzc](https://t.me/flossuzc)
 
 ## 🙏 Credits
 
