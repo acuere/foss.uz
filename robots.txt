@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Disallow admin or private sections (if any in the future)
+# Disallow: /admin/
+
+# Sitemap
+Sitemap: https://facesofopensource.uz/sitemap.xml

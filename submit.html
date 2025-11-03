@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit a Person - Faces of Open Source Uzbekistan</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-brand">
+                <a href="/">Faces of Open Source Uzbekistan</a>
+            </div>
+            <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+            <ul class="nav-menu">
+                <li><a href="/">ALL FACES</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="submit.html">SUBMIT</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main content-page">
+        <article>
+            <h1>Submit a Person</h1>
+            <p class="intro">Know someone making a significant contribution to open source in Uzbekistan? Nominate them to be featured in this project!</p>
+
+            <form id="submission-form" class="submission-form">
+                <div class="form-section">
+                    <h2>Person Being Nominated</h2>
+                    
+                    <div class="form-group">
+                        <label for="nominee-name">Full Name *</label>
+                        <input type="text" id="nominee-name" name="nominee-name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="nominee-github">GitHub Username</label>
+                        <input type="text" id="nominee-github" name="nominee-github" placeholder="@username">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="nominee-email">Email Address</label>
+                        <input type="email" id="nominee-email" name="nominee-email">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="nominee-location">Location in Uzbekistan *</label>
+                        <input type="text" id="nominee-location" name="nominee-location" placeholder="e.g., Tashkent, Samarkand" required>
+                    </div>
+                </div>
+
+                <div class="form-section">
+                    <h2>Open Source Contributions</h2>
+                    
+                    <div class="form-group">
+                        <label for="projects">Main Projects/Contributions *</label>
+                        <textarea id="projects" name="projects" rows="4" placeholder="List the main open source projects they maintain or contribute to" required></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="impact">Impact & Achievements *</label>
+                        <textarea id="impact" name="impact" rows="4" placeholder="Describe their impact on the open source community, notable achievements, or why they should be featured" required></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="links">Relevant Links</label>
+                        <textarea id="links" name="links" rows="3" placeholder="GitHub profile, personal website, project links, etc. (one per line)"></textarea>
+                    </div>
+                </div>
+
+                <div class="form-section">
+                    <h2>Your Information</h2>
+                    
+                    <div class="form-group">
+                        <label for="submitter-name">Your Name *</label>
+                        <input type="text" id="submitter-name" name="submitter-name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="submitter-email">Your Email *</label>
+                        <input type="email" id="submitter-email" name="submitter-email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="submitter-relationship">Your Relationship to Nominee</label>
+                        <select id="submitter-relationship" name="submitter-relationship">
+                            <option value="">Select one</option>
+                            <option value="self">Self-nomination</option>
+                            <option value="colleague">Colleague/Co-worker</option>
+                            <option value="community">Community member</option>
+                            <option value="friend">Friend</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="additional-info">Additional Information</label>
+                        <textarea id="additional-info" name="additional-info" rows="3" placeholder="Any other information you'd like to share"></textarea>
+                    </div>
+                </div>
+
+                <div class="form-actions">
+                    <button type="submit" class="btn-primary">Submit Nomination</button>
+                </div>
+
+                <div id="form-message" class="form-message"></div>
+            </form>
+
+            <div class="submission-note">
+                <h3>What Happens Next?</h3>
+                <p>After you submit a nomination, we'll review the information and reach out to the nominee to arrange a photoshoot and interview. All submissions will be collected as GitHub Issues in our repository for transparency and community involvement.</p>
+            </div>
+        </article>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 Faces of Open Source Uzbekistan. All rights reserved.</p>
+        <div class="social-links">
+            <a href="https://github.com/yourusername/foss.uz" target="_blank" aria-label="GitHub">GitHub</a>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/submit.js"></script>
+</body>
+</html>

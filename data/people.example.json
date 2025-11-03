@@ -1,0 +1,19 @@
+[
+  {
+    "id": "example-person",
+    "name": "Example Person",
+    "title": "Open Source Developer",
+    "image": "media/portraits/example-person.jpg",
+    "story": "This is an example entry showing how to structure person data. Replace this with the actual story of the featured person.\n\nInclude multiple paragraphs describing their journey into open source, their contributions, and their impact on the community.\n\nYou can mention specific projects they've worked on, technologies they champion, and their vision for the future of open source in Uzbekistan.",
+    "links": [
+      {
+        "title": "GitHub",
+        "url": "https://github.com/username"
+      },
+      {
+        "title": "Website",
+        "url": "https://example.com"
+      }
+    ]
+  }
+]
