@@ -91,6 +91,26 @@
                 </div>
 
                 <div class="form-section">
+                    <h2>Portrait Photo (Optional)</h2>
+                    
+                    <div class="form-group">
+                        <label for="photo">Upload Portrait Photo</label>
+                        <input type="file" id="photo" name="photo" accept="image/jpeg,image/jpg,image/png">
+                        <p class="help-text">
+                            Upload a high-quality portrait photo (JPG or PNG, max 5MB). 
+                            Black & white preferred. Recommended size: 1200x1600px (3:4 ratio).
+                        </p>
+                        <div id="photo-preview" class="photo-preview"></div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="photo-url">Or Provide Photo URL</label>
+                        <input type="url" id="photo-url" name="photo-url" placeholder="https://example.com/photo.jpg">
+                        <p class="help-text">If you can't upload, provide a URL to the photo (Dropbox, Google Drive, etc.)</p>
+                    </div>
+                </div>
+
+                <div class="form-section">
                     <h2>Your Information</h2>
                     
                     <div class="form-group">
