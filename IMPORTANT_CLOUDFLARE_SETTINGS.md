@@ -1,4 +1,125 @@
-# ✅ Cloudflare Pages Settings - SIMPLE SOLUTION
+# 🚨 STOP! Cloudflare Pages is Running Wrong Commands!
+
+## The Problem:
+
+Your error shows:
+```
+Executing user deploy command: npx wrangler deploy  ← THIS IS WRONG!
+```
+
+This means you have a **build/deploy command configured in Cloudflare Pages dashboard**.
+
+---
+
+## ✅ THE ONLY SOLUTION THAT WORKS:
+
+### DELETE THE PROJECT AND START FRESH
+
+You CANNOT fix this by editing files - you must fix it in Cloudflare Pages dashboard.
+
+### Step-by-Step:
+
+1. **Go to Cloudflare Dashboard:**
+   https://dash.cloudflare.com/ → Pages
+
+2. **Click on your "foss-uz" project**
+
+3. **Go to Settings tab**
+
+4. **Scroll to bottom → Click "Delete project"**
+
+5. **Confirm deletion**
+
+---
+
+## Now Create the Project THE RIGHT WAY:
+
+1. **Click "Create a project"**
+
+2. **Click "Connect to Git"**
+
+3. **Select your repository: "acuere/foss.uz"**
+
+4. **CRITICAL: On the "Set up builds and deployments" page:**
+
+   ```
+   Production branch:  main
+   
+   Build settings:
+   Framework preset: None  ← SELECT "NONE" FROM DROPDOWN
+   
+   Build command: [                    ]  ← COMPLETELY EMPTY! DON'T TYPE ANYTHING!
+   
+   Build output directory: /
+   
+   Root directory: [                    ]  ← LEAVE EMPTY
+   ```
+
+5. **Click "Save and Deploy"**
+
+---
+
+## What You Did Wrong:
+
+Somewhere you told Cloudflare to run one of these commands:
+- `./deploy.sh`
+- `npx wrangler deploy`
+- `exit 0`
+
+These commands are being saved in Cloudflare's database for your project. You **cannot** remove them by editing code files - you must delete the project and recreate it with **NO BUILD COMMAND**.
+
+---
+
+## Expected Success Output:
+
+After recreating with NO build command:
+
+```
+✅ Cloning repository...
+✅ No build command found - serving static files
+✅ Uploaded 30 files
+✅ Deployed to https://foss-uz.pages.dev
+✅ Success!
+```
+
+---
+
+## Screenshot of Correct Settings:
+
+When you see the "Set up builds and deployments" page:
+
+```
+┌──────────────────────────────────────────┐
+│ Production branch: main                  │
+├──────────────────────────────────────────┤
+│ Build settings                           │
+│                                          │
+│ Framework preset:                        │
+│   [None                      ▼]          │
+│                                          │
+│ Build command:                           │
+│   [                           ]  ← EMPTY!│
+│   ↑ Leave this COMPLETELY blank          │
+│                                          │
+│ Build output directory:                  │
+│   [/                          ]          │
+│                                          │
+│ Root directory:                          │
+│   [                           ]  ← EMPTY!│
+└──────────────────────────────────────────┘
+```
+
+Then click **"Save and Deploy"** and it will work!
+
+---
+
+## Why This Happens:
+
+Cloudflare Pages stores build commands in their database. Even if you update code files, the old command persists. The only way to clear it is to delete and recreate the project with correct settings.
+
+---
+
+**ACTION REQUIRED: Delete the project in Cloudflare Pages dashboard and recreate it with NO build command!**
 
 ## If Cloudflare Rejects "exit 0" or Empty Field:
 
