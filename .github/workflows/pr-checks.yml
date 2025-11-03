@@ -1,0 +1,102 @@
+name: Pull Request Checks
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+jobs:
+  validate:
+    name: Validate Changes
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Check for new person data
+        id: check_person
+        run: |
+          echo "Checking for changes in people.json..."
+          git fetch origin main
+          if git diff origin/main HEAD -- data/people.json | grep -q "^+"; then
+            echo "has_new_person=true" >> $GITHUB_OUTPUT
+            echo "✅ New person data detected"
+          else
+            echo "has_new_person=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Validate person data structure
+        if: steps.check_person.outputs.has_new_person == 'true'
+        run: |
+          echo "Validating person data structure..."
+          python3 << 'EOF'
+          import json
+          import sys
+          
+          with open('data/people.json', 'r') as f:
+              people = json.load(f)
+          
+          required_fields = ['id', 'name', 'title', 'image', 'story']
+          
+          for person in people:
+              for field in required_fields:
+                  if field not in person:
+                      print(f"❌ Missing required field '{field}' in person: {person.get('name', 'unknown')}")
+                      sys.exit(1)
+              
+              # Check image exists
+              import os
+              if not os.path.exists(person['image']):
+                  print(f"⚠️ Warning: Image not found: {person['image']}")
+          
+          print(f"✅ All {len(people)} person entries are valid")
+          EOF
+
+      - name: Check image sizes
+        run: |
+          echo "Checking image file sizes..."
+          find media/portraits -type f \( -name "*.jpg" -o -name "*.png" \) | while read file; do
+            size=$(wc -c < "$file")
+            size_mb=$(echo "scale=2; $size / 1024 / 1024" | bc)
+            echo "📸 $file: ${size_mb}MB"
+            if [ "$size" -gt 2097152 ]; then
+              echo "⚠️ Warning: $file is larger than 2MB. Consider optimizing."
+            fi
+          done
+
+      - name: Lint HTML
+        run: |
+          echo "Running basic HTML checks..."
+          for file in *.html; do
+            if [ -f "$file" ]; then
+              echo "Checking $file..."
+              # Check for common issues
+              if grep -q "http://localhost" "$file"; then
+                echo "⚠️ Warning: localhost URL found in $file"
+              fi
+              if grep -q "yourusername" "$file"; then
+                echo "⚠️ Warning: placeholder 'yourusername' found in $file"
+              fi
+            fi
+          done
+
+      - name: Check for placeholder content
+        run: |
+          echo "Checking for placeholder content..."
+          if grep -r "yourusername" --include="*.html" --include="*.md" .; then
+            echo "⚠️ Found placeholder 'yourusername' - please update with actual username"
+          fi
+          if grep -r "example.com" --include="*.html" --include="*.js" .; then
+            echo "⚠️ Found placeholder 'example.com'"
+          fi
+
+      - name: Comment on PR
+        if: steps.check_person.outputs.has_new_person == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: '✅ New person data detected! Please ensure:\n\n- [ ] Portrait image is included\n- [ ] Image is optimized (< 2MB)\n- [ ] Story is complete and proofread\n- [ ] Links are valid\n\nThank you for contributing to Faces of Open Source Uzbekistan! 🇺🇿'
+            })

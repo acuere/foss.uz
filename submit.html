@@ -29,6 +29,25 @@
 
             <form id="submission-form" class="submission-form">
                 <div class="form-section">
+                    <h2>Submission Method</h2>
+                    
+                    <div class="form-group">
+                        <label>How would you like to submit? *</label>
+                        <div class="radio-group">
+                            <label class="radio-label">
+                                <input type="radio" name="submission-method" value="github" checked>
+                                <span>Create GitHub Pull Request (Recommended)</span>
+                            </label>
+                            <label class="radio-label">
+                                <input type="radio" name="submission-method" value="email">
+                                <span>Send via Email</span>
+                            </label>
+                        </div>
+                        <p class="help-text">GitHub PR allows the community to review and discuss. Email is for private submissions.</p>
+                    </div>
+                </div>
+
+                <div class="form-section">
                     <h2>Person Being Nominated</h2>
                     
                     <div class="form-group">

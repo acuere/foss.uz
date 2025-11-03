@@ -296,6 +296,44 @@ a:hover {
     resize: vertical;
 }
 
+.radio-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.radio-label {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+    padding: 0.75rem;
+    border: 1px solid var(--color-light-gray);
+    border-radius: 4px;
+    transition: border-color 0.2s ease, background-color 0.2s ease;
+}
+
+.radio-label:hover {
+    border-color: var(--color-border);
+    background-color: #f9f9f9;
+}
+
+.radio-label input[type="radio"] {
+    width: auto;
+    cursor: pointer;
+}
+
+.radio-label span {
+    font-size: 1rem;
+}
+
+.help-text {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    color: var(--color-gray);
+    margin-bottom: 0;
+}
+
 .form-actions {
     margin-top: 2rem;
 }

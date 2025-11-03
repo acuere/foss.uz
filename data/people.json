@@ -1,1 +1,36 @@
-[]
+[
+  {
+    "id": "linus-torvalds",
+    "name": "Linus Torvalds",
+    "title": "Creator of Linux and Git",
+    "image": "media/portraits/LinusTorwalds.png",
+    "story": "Linus Torvalds is a Finnish-American software engineer who is the creator and lead developer of the Linux kernel, which is the kernel for a number of operating systems. He also created the distributed version control system Git.\n\nBorn in Helsinki, Finland, Linus began developing the Linux kernel as a personal project in 1991 while a student at the University of Helsinki. What started as a hobby project has become one of the most important pieces of software in the world, powering everything from smartphones to supercomputers.\n\nHis pragmatic approach to software development and his famous no-nonsense style of code review have shaped the culture of open source development. Through Linux and Git, Linus has fundamentally changed how software is built and distributed globally.",
+    "links": [
+      {
+        "title": "GitHub",
+        "url": "https://github.com/torvalds"
+      },
+      {
+        "title": "Linux Kernel",
+        "url": "https://kernel.org"
+      }
+    ]
+  },
+  {
+    "id": "kelsey-hightower",
+    "name": "Kelsey Hightower",
+    "title": "Kubernetes & Cloud Native Advocate",
+    "image": "media/portraits/KelseyHightower.png",
+    "story": "Kelsey Hightower is a distinguished engineer, open source advocate, and one of the most influential voices in cloud native computing. He is widely known for his work with Kubernetes and his ability to explain complex technical concepts in accessible ways.\n\nAs a Principal Engineer at Google Cloud, Kelsey has been instrumental in the adoption of Kubernetes and cloud native technologies. His conference talks, tutorials, and demonstrations have inspired thousands of developers worldwide.\n\nKelsey is a strong advocate for automation, developer experience, and making technology more accessible. His \"Kubernetes The Hard Way\" tutorial has become a rite of passage for many learning Kubernetes, and his engaging speaking style has made him one of the most sought-after speakers in the tech community.",
+    "links": [
+      {
+        "title": "GitHub",
+        "url": "https://github.com/kelseyhightower"
+      },
+      {
+        "title": "Twitter",
+        "url": "https://twitter.com/kelseyhightower"
+      }
+    ]
+  }
+]

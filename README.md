@@ -163,6 +163,48 @@ Change fonts in the `:root` section:
 
 ## 🔧 GitHub Issues Integration (Optional)
 
+The website now supports two submission methods:
+
+### 1. GitHub Issues (Recommended)
+When users select "GitHub PR" on the submission form, they'll be redirected to create a GitHub issue with pre-filled content. This allows community review and discussion.
+
+**To enable:**
+- Issues are already enabled by default on GitHub repositories
+- Issue template is at `.github/ISSUE_TEMPLATE/nomination.md`
+- No additional setup required!
+
+### 2. Email Submission
+When users select "Email", their default email client opens with a pre-filled message to `hello@facesofopensource.uz`.
+
+**To set up email:**
+- Configure email forwarding for `hello@facesofopensource.uz`
+- Or update the email address in `js/submit.js`
+
+## 🚀 Cloudflare Setup
+
+### GitHub Secrets Required
+
+Add these secrets to your GitHub repository (Settings → Secrets and variables → Actions):
+
+1. **CLOUDFLARE_API_TOKEN**
+   - Go to [Cloudflare API Tokens](https://dash.cloudflare.com/profile/api-tokens)
+   - Create token with "Cloudflare Pages — Edit" permissions
+   - Add as GitHub secret
+
+2. **CLOUDFLARE_ACCOUNT_ID**
+   - Go to [Cloudflare Dashboard](https://dash.cloudflare.com/)
+   - Copy Account ID from the right sidebar
+   - Add as GitHub secret
+
+### Automatic Deployments
+
+Once secrets are configured:
+- Every push to `main` triggers automatic deployment
+- Pull requests get preview deployments
+- Deployments complete in ~1 minute
+
+## 🔧 GitHub Issues Integration (Optional)
+
 To automatically create GitHub Issues from form submissions:
 
 1. Create a GitHub Personal Access Token with `repo` scope
