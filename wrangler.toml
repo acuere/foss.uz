@@ -1,10 +1,7 @@
 # Cloudflare Pages Configuration
+# For static sites, this file just needs the output directory
 name = "foss-uz"
 pages_build_output_dir = "."
-
-# Build configuration
-[build]
-  command = ""
   
 # Build environment variables (if needed in the future)
 [build.environment]
