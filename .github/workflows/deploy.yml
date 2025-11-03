@@ -103,6 +103,7 @@ jobs:
           projectName: foss-uz
           directory: .
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
+          wranglerVersion: '3'
 
   preview:
     name: Deploy Preview

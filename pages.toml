@@ -1,0 +1,9 @@
+# Cloudflare Pages Build Configuration
+# This tells Cloudflare Pages how to build and deploy the site
+
+# Build settings (empty for static sites)
+[build]
+command = ""
+
+# Environment variables
+[build.environment]
