@@ -61,6 +61,9 @@ Share the project within the Uzbek tech community!
 
 ## Questions?
 
-Open an issue or reach out to hello@facesofopensource.uz
+Open an issue or reach out to:
+- **Email:** t.ibrokhims@gmail.com
+- **Telegram:** [@flossuzc](https://t.me/flossuzc)
+- **GitHub:** [github.com/acuere/foss.uz](https://github.com/acuere/foss.uz)
 
 Thank you for helping celebrate the Uzbek open source community! 🇺🇿
