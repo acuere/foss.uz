@@ -13,16 +13,16 @@
     },
     "links": [
       {
-        "title": "FLOSS Uzbekistan",
-        "url": "https://floss.uz"
+        "title": "Website",
+        "url": "https://orzklv.uz"
       },
       {
         "title": "GitHub",
         "url": "https://github.com/orzklv"
       },
       {
-        "title": "Telegram",
-        "url": "https://t.me/flossuz"
+        "title": "FLOSS Uzbekistan",
+        "url": "https://floss.uz"
       }
     ]
   },
@@ -39,6 +39,10 @@
       "uz": "Ahmad Qodirov FLOSS Oʻzbekiston ichidagi Funksional Dasturlash hamjamiyatiga yetakchilik qiladi. U funksional dasturlash paradigmalarini targʻib qilish va Oʻzbekistondagi dasturchilarga Haskell, Elixir kabi tillarni va asosiy tillardagi funksional yondashuvlarni oʻrganishda yordam berishga ishtiyoqli.\n\nHamjamiyat yetakchisi sifatida Ahmad dasturchilarga funksional dasturlash tushunchalarini tushunish va qoʻllashda yordam berish uchun uchrashuvlar, seminarlar va taʼlim kontentini tashkil qiladi.\n\nUning bilim almashishga sadoqati Oʻzbekistonda funksional dasturlash hamjamiyatini rivojlantirishga yordam berdi va koʻplab dasturchilarga yangi dasturlash paradigmalarini oʻrganishga ilhom berdi."
     },
     "links": [
+      {
+        "title": "Telegram",
+        "url": "https://t.me/programming_everyone"
+      },
       {
         "title": "FLOSS Uzbekistan",
         "url": "https://floss.uz"
@@ -59,6 +63,10 @@
     },
     "links": [
       {
+        "title": "GitHub",
+        "url": "https://github.com/bahrom04"
+      },
+      {
         "title": "FLOSS Uzbekistan",
         "url": "https://floss.uz"
       }
@@ -77,6 +85,10 @@
       "uz": "Diyorbek Rustamjonov FLOSS Oʻzbekiston ichidagi Oʻzbek Ecma hamjamiyatiga hamyetakchilik qiladi, JavaScript va ECMAScript bilan bogʻliq texnologiyalarga eʼtibor qaratadi.\n\nOʻzbek Ecma hamjamiyati butun Oʻzbekistondagi JavaScript dasturchillarini bilim almashish, loyihalarda hamkorlik qilish va JavaScript ekotizimidagi soʻnggi yangiliklardan xabardor boʻlish uchun birlashtiradi.\n\nDiyorbekning yetakchiligi dasturchilarga zamonaviy JavaScript freymvorklari, Node.js va veb-dasturlash eng yaxshi amaliyotlarini oʻrganish mumkin boʻlgan jonli hamjamiyat yaratishga yordam berdi."
     },
     "links": [
+      {
+        "title": "Website",
+        "url": "https://www.xattab.uz"
+      },
       {
         "title": "FLOSS Uzbekistan",
         "url": "https://floss.uz"
@@ -97,6 +109,10 @@
     },
     "links": [
       {
+        "title": "Telegram",
+        "url": "https://t.me/rustamwin_blog"
+      },
+      {
         "title": "FLOSS Uzbekistan",
         "url": "https://floss.uz"
       }
@@ -115,6 +131,10 @@
       "uz": "Otabek Ismoilov FLOSS Oʻzbekiston ichidagi Oʻzbek DevOps hamjamiyatiga yetakchilik qiladi. U DevOps amaliyotlari, bulutli infratuzilma va jamoalarga zamonaviy joylashtirish va operatsiyalar metodologiyalarini qabul qilishda yordam berishga ishtiyoqli.\n\nDevOps Journey hamjamiyati uning yetakchiligi ostida CI/CD, konteynerlashtirish, Kubernetes va bulutli platformalar haqida oʻrganmoqchi boʻlgan dasturchilarga resurslar, qoʻllanmalar va hamjamiyat yordamini taqdim etadi.\n\nOtabekning ishi oʻzbek dasturchilari orasida DevOps madaniyatini tarqatish va kompaniyalarga infratuzilma amaliyotlarini modernizatsiya qilishda muhim rol oʻynadi."
     },
     "links": [
+      {
+        "title": "GitHub",
+        "url": "https://github.com/ismoilovdevml"
+      },
       {
         "title": "DevOps Journey",
         "url": "https://devops-journey.uz"
@@ -139,6 +159,10 @@
     },
     "links": [
       {
+        "title": "Website",
+        "url": "https://www.haywan.uz"
+      },
+      {
         "title": "FLOSS Uzbekistan",
         "url": "https://floss.uz"
       }
@@ -157,6 +181,10 @@
       "uz": "Sardor Dushamov FLOSS Oʻzbekiston ichidagi PHP Oʻzbekiston hamjamiyatiga yetakchilik qiladi. PHP veb-dasturlash uchun eng koʻp ishlatiladigan tillardan biri boʻlib qolmoqda va Sardor Oʻzbekistondagi PHP dasturchilari hamjamiyatini qoʻllab-quvvatlashga harakat qilmoqda.\n\nPHP Oʻzbekiston hamjamiyati zamonaviy PHP, Laravel, Symfony va boshqa PHP freymvorklari va vositalarini oʻrganish uchun resurslar taqdim etadi.\n\nSardorning yetakchiligi PHP dasturchilari uchun bilim almashish va loyihalarda hamkorlik qilish uchun qoʻllab-quvvatlovchi muhit yaratishga yordam berdi."
     },
     "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/sardor-dushamov-ba275b62/"
+      },
       {
         "title": "FLOSS Uzbekistan",
         "url": "https://floss.uz"
@@ -177,6 +205,10 @@
     },
     "links": [
       {
+        "title": "Website",
+        "url": "https://shakhzod.me"
+      },
+      {
         "title": "FLOSS Uzbekistan",
         "url": "https://floss.uz"
       }
@@ -195,6 +227,10 @@
       "uz": "Javohir Abdusattorov FLOSS Oʻzbekiston ichidagi Rust Oʻzbekiston hamjamiyatini boshqaradi. Rust xavfsizlik, unumdorlik va parallellikka eʼtibor qaratgani uchun katta mashhurlikka erishdi.\n\nJavohir Oʻzbekistonda Rust dasturchilari hamjamiyatini rivojlantirishga harakat qilmoqda, dasturchilarga bu kuchli tizim dasturlash tilini oʻrganishda yordam bermoqda.\n\nHamjamiyat tadbirlari va taʼlim kontenti orqali u koʻplab dasturchilarga Rust va uning xotira xavfsizligiga noyob yondashuvini tanishtirdi."
     },
     "links": [
+      {
+        "title": "GitHub",
+        "url": "https://github.com/javohir-abdusattorov"
+      },
       {
         "title": "Rust Uzbekistan",
         "url": "https://t.me/rustlanguz"
@@ -219,6 +255,10 @@
     },
     "links": [
       {
+        "title": "GitHub",
+        "url": "https://github.com/zawkindev"
+      },
+      {
         "title": "Xinux",
         "url": "https://t.me/xinuxuz"
       },
@@ -242,6 +282,10 @@
     },
     "links": [
       {
+        "title": "GitHub",
+        "url": "https://github.com/DikoIbragimov"
+      },
+      {
         "title": "FLOSS Uzbekistan",
         "url": "https://floss.uz"
       }
@@ -260,6 +304,10 @@
       "uz": "Nodirbek Noʻmonov FLOSS Oʻzbekiston ichidagi Trash hamjamiyatini boshqaradi. Hamjamiyat dasturchilarga xatolardan oʻrganish, muammolarni tuzatish va dasturiy taʼminot ishlab chiqishda nima qilmaslik kerakligi haqida tajribalarni baham koʻrishga yordam berishga qaratilgan.\n\nMuvaffaqiyatsizliklardan oʻrganish oʻsishning muhim qismidir va Nodirbekning hamjamiyati dasturchilarga keng tarqalgan xatolardan oʻrganish va baham koʻrish uchun xavfsiz muhit yaratadi.\n\nUning ishi dasturchilarga keng tarqalgan xatolardan qochish va umumiy tajribalar orqali yaxshiroq dasturiy taʼminot yaratishga yordam beradi."
     },
     "links": [
+      {
+        "title": "Portfolio",
+        "url": "https://portfolio.rarebek.uz"
+      },
       {
         "title": "FLOSS Uzbekistan",
         "url": "https://floss.uz"
@@ -280,6 +328,10 @@
     },
     "links": [
       {
+        "title": "Website",
+        "url": "https://bobomurod.uz"
+      },
+      {
         "title": "FLOSS Uzbekistan",
         "url": "https://floss.uz"
       }
@@ -299,6 +351,10 @@
     },
     "links": [
       {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/husniddin-qurbonboyev-8906b5168/"
+      },
+      {
         "title": "FLOSS Uzbekistan",
         "url": "https://floss.uz"
       }
@@ -317,6 +373,10 @@
       "uz": "Manuchehr Usmonov FLOSS Oʻzbekistonda yordamchi rolda xizmat qiladi, tashkiliy vazifalar va hamjamiyatni qoʻllab-quvvatlashda yordam beradi.\n\nUning sahna ortidagi ishi tashkilotning muammosiz ishlashini taʼminlaydi va hamjamiyat aʼzolari zarur resurslarga ega boʻlishini kafolatlaydi.\n\nManuchehrning Oʻzbekistondagi ochiq kodli hamjamiyatni qoʻllab-quvvatlashga sadoqati FLOSS Oʻzbekistonning umumiy muvaffaqiyatiga hissa qoʻshadi."
     },
     "links": [
+      {
+        "title": "Website",
+        "url": "https://manu.uz"
+      },
       {
         "title": "FLOSS Uzbekistan",
         "url": "https://floss.uz"
