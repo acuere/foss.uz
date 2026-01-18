@@ -1,120 +1,28 @@
 [
   {
-    "id": "orzklv",
-    "name": "Orzklv",
+    "id": "sherali-obidov",
+    "name": "Sherali Obidov",
     "title": {
-      "en": "Founder & Leader of FLOSS Uzbekistan",
-      "uz": "FLOSS Oʻzbekiston Asoschisi va Yetakchisi"
+      "en": "Senior Software Engineer at Google, Creator of AlgoDS",
+      "uz": "Google'da Katta Dasturiy Taʼminot Muhandisi, AlgoDS Yaratuvchisi"
     },
-    "image": "media/portraits/orzklv.jpg",
+    "image": "media/portraits/sherali-obidov.jpg",
     "story": {
-      "en": "Orzklv is the founder and leader of FLOSS Uzbekistan (Free/Libre Open Source Software Uzbekistan), a non-profit organization dedicated to promoting open source culture in Uzbekistan.\n\nUnder his leadership, FLOSS Uzbekistan has grown to become a major hub for the Uzbek developer community, with over 7,500 members across 9 different communities and more than 50 open source projects.\n\nHis vision is to create a collaborative environment where developers can share knowledge, contribute to open source projects, and build a stronger tech community in Central Asia.",
-      "uz": "Orzklv - FLOSS Oʻzbekiston (Free/Libre Open Source Software Uzbekistan) asoschisi va yetakchisi boʻlib, bu notijorat tashkilot Oʻzbekistonda ochiq kodli madaniyatni rivojlantirishga bagʻishlangan.\n\nUning yetakchiligi ostida FLOSS Oʻzbekiston oʻzbek dasturchilar hamjamiyati uchun asosiy markazga aylandi, 9 ta turli hamjamiyatda 7500 dan ortiq aʼzo va 50 dan ortiq ochiq kodli loyihalar mavjud.\n\nUning maqsadi - dasturchilarga bilim almashish, ochiq kodli loyihalarga hissa qoʻshish va Markaziy Osiyoda kuchli texnologik hamjamiyat yaratish uchun hamkorlik muhitini shakllantirish."
-    },
-    "links": [
-      {
-        "title": "Website",
-        "url": "https://orzklv.uz"
-      },
-      {
-        "title": "GitHub",
-        "url": "https://github.com/orzklv"
-      },
-      {
-        "title": "FLOSS Uzbekistan",
-        "url": "https://floss.uz"
-      }
-    ]
-  },
-  {
-    "id": "ahmad-qodirov",
-    "name": "Ahmad Qodirov",
-    "title": {
-      "en": "Functional Programming Community Lead",
-      "uz": "Funksional Dasturlash Hamjamiyati Yetakchisi"
-    },
-    "image": "media/portraits/ahmad-qodirov.jpg",
-    "story": {
-      "en": "Ahmad Qodirov leads the Functional Programming community within FLOSS Uzbekistan. He is passionate about promoting functional programming paradigms and helping developers in Uzbekistan explore languages like Haskell, Elixir, and functional approaches in mainstream languages.\n\nAs a community leader, Ahmad organizes meetups, workshops, and educational content to help developers understand and apply functional programming concepts in their work.\n\nHis dedication to knowledge sharing has helped grow the functional programming community in Uzbekistan and inspired many developers to explore new programming paradigms.",
-      "uz": "Ahmad Qodirov FLOSS Oʻzbekiston ichidagi Funksional Dasturlash hamjamiyatiga yetakchilik qiladi. U funksional dasturlash paradigmalarini targʻib qilish va Oʻzbekistondagi dasturchilarga Haskell, Elixir kabi tillarni va asosiy tillardagi funksional yondashuvlarni oʻrganishda yordam berishga ishtiyoqli.\n\nHamjamiyat yetakchisi sifatida Ahmad dasturchilarga funksional dasturlash tushunchalarini tushunish va qoʻllashda yordam berish uchun uchrashuvlar, seminarlar va taʼlim kontentini tashkil qiladi.\n\nUning bilim almashishga sadoqati Oʻzbekistonda funksional dasturlash hamjamiyatini rivojlantirishga yordam berdi va koʻplab dasturchilarga yangi dasturlash paradigmalarini oʻrganishga ilhom berdi."
-    },
-    "links": [
-      {
-        "title": "Telegram",
-        "url": "https://t.me/programming_everyone"
-      },
-      {
-        "title": "FLOSS Uzbekistan",
-        "url": "https://floss.uz"
-      }
-    ]
-  },
-  {
-    "id": "baxrom-raxmatov",
-    "name": "Baxrom Raxmatov",
-    "title": {
-      "en": "Uzbek Localization Community Lead",
-      "uz": "Oʻzbek Mahalliylashtirish Hamjamiyati Yetakchisi"
-    },
-    "image": "media/portraits/baxrom-raxmatov.jpg",
-    "story": {
-      "en": "Baxrom Raxmatov leads the Uzbek Localization community within FLOSS Uzbekistan. His work focuses on translating and localizing open source software into Uzbek language, making technology more accessible to Uzbek-speaking users.\n\nLocalization is crucial for bringing technology to wider audiences, and Baxrom's efforts help ensure that Uzbek speakers can use software in their native language.\n\nThrough his leadership, the community has contributed translations to numerous open source projects, helping bridge the language gap in the tech world.",
-      "uz": "Baxrom Raxmatov FLOSS Oʻzbekiston ichidagi Oʻzbek Mahalliylashtirish hamjamiyatiga yetakchilik qiladi. Uning ishi ochiq kodli dasturiy taʼminotni oʻzbek tiliga tarjima qilish va mahalliylashtirish, texnologiyani oʻzbek tilida soʻzlashuvchilar uchun qulayroq qilishga qaratilgan.\n\nMahalliylashtirish texnologiyani keng auditoriyaga yetkazish uchun juda muhim va Baxromning saʼy-harakatlari oʻzbek tilida soʻzlashuvchilar dasturiy taʼminotdan ona tilida foydalanishini taʼminlashga yordam beradi.\n\nUning yetakchiligi orqali hamjamiyat koʻplab ochiq kodli loyihalarga tarjimalar qoʻshdi va texnologiya olamidagi til toʻsigʻini bartaraf etishga yordam berdi."
+      "en": "Sherali Obidov is a Senior Software Engineer at Google, working on audio and media engines for real-time communications products like Google Fi and Google Voice. Originally from Uzbekistan, he holds a Bachelor's degree from Westminster International University in Tashkent and a Master's in Computer Science from Maharishi University of Management in the USA.\n\nSherali is the creator of AlgoDS, one of the most popular algorithm repositories on GitHub with over 3,400 stars and 600 forks. The repository contains comprehensive implementations of algorithms and data structures in Java, along with solutions to common programming problems. It has become an invaluable resource for developers preparing for technical interviews worldwide.\n\nAs a Certified Java Professional, Sherali has extensive experience with Java ecosystem technologies including Spring Boot, Hibernate, and various databases. Before Google, he worked at SPINS, Key Plan Solution AB, and ViaTashkent. He is also active on LeetCode where he has solved hundreds of algorithmic problems.",
+      "uz": "Sherali Obidov Google kompaniyasida katta dasturiy taʼminot muhandisi boʻlib, Google Fi va Google Voice kabi real vaqt aloqa mahsulotlari uchun audio va media dvigatellarida ishlaydi. Oʻzbekistondan boʻlib, Toshkentdagi Westminster Xalqaro Universitetida bakalavr darajasini va AQShdagi Maharishi Boshqaruv Universitetida Kompyuter fanlari boʻyicha magistr darajasini olgan.\n\nSherali GitHubdagi eng mashhur algoritm repozitoriyalaridan biri boʻlgan AlgoDS yaratuvchisi boʻlib, 3,400 dan ortiq yulduz va 600 forkga ega. Repozitoriya Java tilida algoritmlar va maʼlumotlar tuzilmalarining keng qamrovli amalga oshirilishini, shuningdek keng tarqalgan dasturlash muammolarining yechimlarini oʻz ichiga oladi. U butun dunyo boʻylab texnik intervyularga tayyorlanayotgan dasturchillar uchun bebaho resursga aylandi.\n\nSertifikatlangan Java Professional sifatida Sherali Spring Boot, Hibernate va turli maʼlumotlar bazalari kabi Java ekotizimi texnologiyalari bilan keng tajribaga ega. Google'dan oldin u SPINS, Key Plan Solution AB va ViaTashkent kompaniyalarida ishlagan. U shuningdek LeetCode'da faol boʻlib, yuzlab algoritmik muammolarni yechgan."
     },
     "links": [
       {
         "title": "GitHub",
-        "url": "https://github.com/bahrom04"
+        "url": "https://github.com/sherxon"
       },
       {
-        "title": "FLOSS Uzbekistan",
-        "url": "https://floss.uz"
-      }
-    ]
-  },
-  {
-    "id": "diyorbek-rustamjonov",
-    "name": "Diyorbek Rustamjonov",
-    "title": {
-      "en": "Uzbek Ecma (JavaScript) Community Lead",
-      "uz": "Oʻzbek Ecma (JavaScript) Hamjamiyati Yetakchisi"
-    },
-    "image": "media/portraits/diyorbek-rustamjonov.jpg",
-    "story": {
-      "en": "Diyorbek Rustamjonov co-leads the Uzbek Ecma community within FLOSS Uzbekistan, focusing on JavaScript and ECMAScript-related technologies.\n\nThe Uzbek Ecma community brings together JavaScript developers from across Uzbekistan to share knowledge, collaborate on projects, and stay updated with the latest developments in the JavaScript ecosystem.\n\nDiyorbek's leadership has helped create a vibrant community where developers can learn modern JavaScript frameworks, Node.js, and web development best practices.",
-      "uz": "Diyorbek Rustamjonov FLOSS Oʻzbekiston ichidagi Oʻzbek Ecma hamjamiyatiga hamyetakchilik qiladi, JavaScript va ECMAScript bilan bogʻliq texnologiyalarga eʼtibor qaratadi.\n\nOʻzbek Ecma hamjamiyati butun Oʻzbekistondagi JavaScript dasturchillarini bilim almashish, loyihalarda hamkorlik qilish va JavaScript ekotizimidagi soʻnggi yangiliklardan xabardor boʻlish uchun birlashtiradi.\n\nDiyorbekning yetakchiligi dasturchilarga zamonaviy JavaScript freymvorklari, Node.js va veb-dasturlash eng yaxshi amaliyotlarini oʻrganish mumkin boʻlgan jonli hamjamiyat yaratishga yordam berdi."
-    },
-    "links": [
-      {
-        "title": "Website",
-        "url": "https://www.xattab.uz"
+        "title": "AlgoDS",
+        "url": "https://github.com/sherxon/AlgoDS"
       },
       {
-        "title": "FLOSS Uzbekistan",
-        "url": "https://floss.uz"
-      }
-    ]
-  },
-  {
-    "id": "rustam-mamadaminov",
-    "name": "Rustam Mamadaminov",
-    "title": {
-      "en": "Uzbek Ecma (JavaScript) Community Lead",
-      "uz": "Oʻzbek Ecma (JavaScript) Hamjamiyati Yetakchisi"
-    },
-    "image": "media/portraits/rustam-mamadaminov.jpg",
-    "story": {
-      "en": "Rustam Mamadaminov co-leads the Uzbek Ecma community within FLOSS Uzbekistan alongside Diyorbek Rustamjonov. Together, they work to grow the JavaScript developer community in Uzbekistan.\n\nRustam is dedicated to helping developers master JavaScript and related technologies through community events, code reviews, and mentorship.\n\nHis contributions to the community have helped many aspiring developers start their journey in web development and open source.",
-      "uz": "Rustam Mamadaminov Diyorbek Rustamjonov bilan birga FLOSS Oʻzbekiston ichidagi Oʻzbek Ecma hamjamiyatiga hamyetakchilik qiladi. Birgalikda ular Oʻzbekistonda JavaScript dasturchilari hamjamiyatini rivojlantirishga harakat qilmoqdalar.\n\nRustam hamjamiyat tadbirlari, kod koʻrib chiqishlari va murabbiylik orqali dasturchilarga JavaScript va tegishli texnologiyalarni oʻzlashtirishda yordam berishga bagʻishlangan.\n\nUning hamjamiyatga qoʻshgan hissasi koʻplab istiqbolli dasturchilarga veb-dasturlash va ochiq kodli loyihalarda sayohatini boshlashga yordam berdi."
-    },
-    "links": [
-      {
-        "title": "Telegram",
-        "url": "https://t.me/rustamwin_blog"
-      },
-      {
-        "title": "FLOSS Uzbekistan",
-        "url": "https://floss.uz"
+        "title": "LeetCode",
+        "url": "https://leetcode.com/Sherxon/"
       }
     ]
   },
@@ -138,244 +46,6 @@
       {
         "title": "DevOps Journey",
         "url": "https://devops-journey.uz"
-      },
-      {
-        "title": "FLOSS Uzbekistan",
-        "url": "https://floss.uz"
-      }
-    ]
-  },
-  {
-    "id": "abdurahmon-mamadiyorov",
-    "name": "Abdurahmon Mamadiyorov",
-    "title": {
-      "en": "Gofer Uzbekistan (Go) Community Lead",
-      "uz": "Gofer Oʻzbekiston (Go) Hamjamiyati Yetakchisi"
-    },
-    "image": "media/portraits/abdurahmon-mamadiyorov.jpg",
-    "story": {
-      "en": "Abdurahmon Mamadiyorov leads the Gofer Uzbekistan community within FLOSS Uzbekistan, dedicated to the Go programming language.\n\nGo has become increasingly popular for building scalable backend services and cloud-native applications, and Abdurahmon works to grow the Go developer community in Uzbekistan.\n\nThrough meetups, tutorials, and open source contributions, he helps developers learn Go and apply it to solve real-world problems.",
-      "uz": "Abdurahmon Mamadiyorov FLOSS Oʻzbekiston ichidagi Gofer Oʻzbekiston hamjamiyatiga yetakchilik qiladi, bu hamjamiyat Go dasturlash tiliga bagʻishlangan.\n\nGo masshtablanadigan backend xizmatlari va bulutga moʻljallangan ilovalarni yaratish uchun tobora ommalashib bormoqda va Abdurahmon Oʻzbekistonda Go dasturchilari hamjamiyatini rivojlantirishga harakat qilmoqda.\n\nUchrashuvlar, qoʻllanmalar va ochiq kodli loyihalarga hissa qoʻshish orqali u dasturchilarga Go tilini oʻrganish va uni haqiqiy muammolarni hal qilishda qoʻllashga yordam beradi."
-    },
-    "links": [
-      {
-        "title": "Website",
-        "url": "https://www.haywan.uz"
-      },
-      {
-        "title": "FLOSS Uzbekistan",
-        "url": "https://floss.uz"
-      }
-    ]
-  },
-  {
-    "id": "sardor-dushamov",
-    "name": "Sardor Dushamov",
-    "title": {
-      "en": "PHP Uzbekistan Community Lead",
-      "uz": "PHP Oʻzbekiston Hamjamiyati Yetakchisi"
-    },
-    "image": "media/portraits/sardor-dushamov.jpg",
-    "story": {
-      "en": "Sardor Dushamov leads the PHP Uzbekistan community within FLOSS Uzbekistan. PHP remains one of the most widely used languages for web development, and Sardor works to support the PHP developer community in Uzbekistan.\n\nThe PHP Uzbekistan community provides resources for learning modern PHP, Laravel, Symfony, and other PHP frameworks and tools.\n\nSardor's leadership has helped create a supportive environment for PHP developers to share knowledge and collaborate on projects.",
-      "uz": "Sardor Dushamov FLOSS Oʻzbekiston ichidagi PHP Oʻzbekiston hamjamiyatiga yetakchilik qiladi. PHP veb-dasturlash uchun eng koʻp ishlatiladigan tillardan biri boʻlib qolmoqda va Sardor Oʻzbekistondagi PHP dasturchilari hamjamiyatini qoʻllab-quvvatlashga harakat qilmoqda.\n\nPHP Oʻzbekiston hamjamiyati zamonaviy PHP, Laravel, Symfony va boshqa PHP freymvorklari va vositalarini oʻrganish uchun resurslar taqdim etadi.\n\nSardorning yetakchiligi PHP dasturchilari uchun bilim almashish va loyihalarda hamkorlik qilish uchun qoʻllab-quvvatlovchi muhit yaratishga yordam berdi."
-    },
-    "links": [
-      {
-        "title": "LinkedIn",
-        "url": "https://www.linkedin.com/in/sardor-dushamov-ba275b62/"
-      },
-      {
-        "title": "FLOSS Uzbekistan",
-        "url": "https://floss.uz"
-      }
-    ]
-  },
-  {
-    "id": "shaxzod-qudratov",
-    "name": "Shaxzod Qudratov",
-    "title": {
-      "en": "Communities Manager at FLOSS Uzbekistan",
-      "uz": "FLOSS Oʻzbekiston Hamjamiyatlar Menejeri"
-    },
-    "image": "media/portraits/shaxzod-qudratov.jpg",
-    "story": {
-      "en": "Shaxzod Qudratov serves as the Communities Manager at FLOSS Uzbekistan, overseeing the coordination and growth of multiple developer communities under the FLOSS umbrella.\n\nHis role involves facilitating communication between different communities, organizing cross-community events, and ensuring that all communities have the support they need to thrive.\n\nShaxzod's organizational skills and dedication have been key to maintaining the cohesion and growth of the FLOSS Uzbekistan ecosystem.",
-      "uz": "Shaxzod Qudratov FLOSS Oʻzbekistonda Hamjamiyatlar Menejeri sifatida xizmat qiladi, FLOSS soyaboni ostidagi bir nechta dasturchilar hamjamiyatlarining muvofiqlashtirish va rivojlanishini nazorat qiladi.\n\nUning roli turli hamjamiyatlar oʻrtasida muloqotni osonlashtirish, hamjamiyatlararo tadbirlarni tashkil qilish va barcha hamjamiyatlar rivojlanish uchun zarur yordamga ega boʻlishini taʼminlashni oʻz ichiga oladi.\n\nShaxzodning tashkilotchilik qobiliyatlari va sadoqati FLOSS Oʻzbekiston ekotizimining birlik va oʻsishini saqlashda muhim ahamiyatga ega boʻldi."
-    },
-    "links": [
-      {
-        "title": "Website",
-        "url": "https://shakhzod.me"
-      },
-      {
-        "title": "FLOSS Uzbekistan",
-        "url": "https://floss.uz"
-      }
-    ]
-  },
-  {
-    "id": "javohir-abdusattorov",
-    "name": "Javohir Abdusattorov",
-    "title": {
-      "en": "Rust Uzbekistan Community Manager",
-      "uz": "Rust Oʻzbekiston Hamjamiyati Menejeri"
-    },
-    "image": "media/portraits/javohir-abdusattorov.jpg",
-    "story": {
-      "en": "Javohir Abdusattorov manages the Rust Uzbekistan community within FLOSS Uzbekistan. Rust has gained significant popularity for its focus on safety, performance, and concurrency.\n\nJavohir works to grow the Rust developer community in Uzbekistan, helping developers learn this powerful systems programming language.\n\nThrough community events and educational content, he has helped introduce many developers to Rust and its unique approach to memory safety.",
-      "uz": "Javohir Abdusattorov FLOSS Oʻzbekiston ichidagi Rust Oʻzbekiston hamjamiyatini boshqaradi. Rust xavfsizlik, unumdorlik va parallellikka eʼtibor qaratgani uchun katta mashhurlikka erishdi.\n\nJavohir Oʻzbekistonda Rust dasturchilari hamjamiyatini rivojlantirishga harakat qilmoqda, dasturchilarga bu kuchli tizim dasturlash tilini oʻrganishda yordam bermoqda.\n\nHamjamiyat tadbirlari va taʼlim kontenti orqali u koʻplab dasturchilarga Rust va uning xotira xavfsizligiga noyob yondashuvini tanishtirdi."
-    },
-    "links": [
-      {
-        "title": "GitHub",
-        "url": "https://github.com/javohir-abdusattorov"
-      },
-      {
-        "title": "Rust Uzbekistan",
-        "url": "https://t.me/rustlanguz"
-      },
-      {
-        "title": "FLOSS Uzbekistan",
-        "url": "https://floss.uz"
-      }
-    ]
-  },
-  {
-    "id": "shahruz-norimmatov",
-    "name": "Shahruz Norimmatov",
-    "title": {
-      "en": "Xinux Community Manager",
-      "uz": "Xinux Hamjamiyati Menejeri"
-    },
-    "image": "media/portraits/shahruz-norimmatov.jpg",
-    "story": {
-      "en": "Shahruz Norimmatov manages the Xinux community within FLOSS Uzbekistan. Xinux focuses on Linux and open source operating systems, helping users and developers in Uzbekistan adopt and contribute to Linux.\n\nThe Xinux community provides support for Linux users, from beginners to advanced system administrators, and promotes the use of open source alternatives.\n\nShahruz's work has helped grow Linux adoption in Uzbekistan and created a supportive community for open source enthusiasts.",
-      "uz": "Shahruz Norimmatov FLOSS Oʻzbekiston ichidagi Xinux hamjamiyatini boshqaradi. Xinux Linux va ochiq kodli operatsion tizimlarga eʼtibor qaratadi, Oʻzbekistondagi foydalanuvchilar va dasturchilarga Linuxni qabul qilish va unga hissa qoʻshishda yordam beradi.\n\nXinux hamjamiyati boshlangʻich foydalanuvchilardan tortib ilgʻor tizim administratorlarigacha Linux foydalanuvchilariga yordam beradi va ochiq kodli alternativalardan foydalanishni targʻib qiladi.\n\nShahruzning ishi Oʻzbekistonda Linux qabul qilinishini oshirishga va ochiq kodli ishqibozlar uchun qoʻllab-quvvatlovchi hamjamiyat yaratishga yordam berdi."
-    },
-    "links": [
-      {
-        "title": "GitHub",
-        "url": "https://github.com/zawkindev"
-      },
-      {
-        "title": "Xinux",
-        "url": "https://t.me/xinuxuz"
-      },
-      {
-        "title": "FLOSS Uzbekistan",
-        "url": "https://floss.uz"
-      }
-    ]
-  },
-  {
-    "id": "diyorbek-ibragimov",
-    "name": "Diyorbek Ibragimov",
-    "title": {
-      "en": "PHP Uzbekistan Community Manager",
-      "uz": "PHP Oʻzbekiston Hamjamiyati Menejeri"
-    },
-    "image": "media/portraits/diyorbek-ibragimov.jpg",
-    "story": {
-      "en": "Diyorbek Ibragimov is a community manager for PHP Uzbekistan within FLOSS Uzbekistan. He works alongside Sardor Dushamov to support and grow the PHP developer community.\n\nHis contributions include organizing community events, helping newcomers get started with PHP development, and maintaining community resources.\n\nDiyorbek's dedication to the community has helped make PHP Uzbekistan a welcoming place for developers of all skill levels.",
-      "uz": "Diyorbek Ibragimov FLOSS Oʻzbekiston ichidagi PHP Oʻzbekiston hamjamiyati menejeridir. U Sardor Dushamov bilan birga PHP dasturchilari hamjamiyatini qoʻllab-quvvatlash va rivojlantirishda ishlaydi.\n\nUning hissalari hamjamiyat tadbirlarini tashkil qilish, yangi kelganlarga PHP dasturlashni boshlashda yordam berish va hamjamiyat resurslarini saqlashni oʻz ichiga oladi.\n\nDiyorbekning hamjamiyatga sadoqati PHP Oʻzbekistonni barcha darajadagi dasturchillar uchun mehmondo'st joyga aylantirishga yordam berdi."
-    },
-    "links": [
-      {
-        "title": "GitHub",
-        "url": "https://github.com/DikoIbragimov"
-      },
-      {
-        "title": "FLOSS Uzbekistan",
-        "url": "https://floss.uz"
-      }
-    ]
-  },
-  {
-    "id": "nodirbek-nomonov",
-    "name": "Nodirbek No'monov",
-    "title": {
-      "en": "Trash Community Manager",
-      "uz": "Trash Hamjamiyati Menejeri"
-    },
-    "image": "media/portraits/nodirbek-nomonov.jpg",
-    "story": {
-      "en": "Nodirbek No'monov manages the Trash community within FLOSS Uzbekistan. The community focuses on helping developers learn from mistakes, debug issues, and share experiences about what not to do in software development.\n\nLearning from failures is an important part of growth, and Nodirbek's community provides a safe space for developers to share and learn from common pitfalls.\n\nHis work helps developers avoid common mistakes and build better software through shared experiences.",
-      "uz": "Nodirbek Noʻmonov FLOSS Oʻzbekiston ichidagi Trash hamjamiyatini boshqaradi. Hamjamiyat dasturchilarga xatolardan oʻrganish, muammolarni tuzatish va dasturiy taʼminot ishlab chiqishda nima qilmaslik kerakligi haqida tajribalarni baham koʻrishga yordam berishga qaratilgan.\n\nMuvaffaqiyatsizliklardan oʻrganish oʻsishning muhim qismidir va Nodirbekning hamjamiyati dasturchilarga keng tarqalgan xatolardan oʻrganish va baham koʻrish uchun xavfsiz muhit yaratadi.\n\nUning ishi dasturchilarga keng tarqalgan xatolardan qochish va umumiy tajribalar orqali yaxshiroq dasturiy taʼminot yaratishga yordam beradi."
-    },
-    "links": [
-      {
-        "title": "Portfolio",
-        "url": "https://portfolio.rarebek.uz"
-      },
-      {
-        "title": "FLOSS Uzbekistan",
-        "url": "https://floss.uz"
-      }
-    ]
-  },
-  {
-    "id": "bobomurod-muminov",
-    "name": "Bobomurod Mo'minov",
-    "title": {
-      "en": "Awesome Community Manager",
-      "uz": "Awesome Hamjamiyati Menejeri"
-    },
-    "image": "media/portraits/bobomurod-muminov.jpg",
-    "story": {
-      "en": "Bobomurod Mo'minov manages the Awesome community within FLOSS Uzbekistan. The Awesome community curates and maintains lists of high-quality resources, tools, and projects for developers.\n\nInspired by the popular 'awesome lists' on GitHub, Bobomurod works to create comprehensive resource collections specifically tailored for Uzbek developers.\n\nHis curation efforts help developers discover useful tools, libraries, and learning resources more easily.",
-      "uz": "Bobomurod Moʻminov FLOSS Oʻzbekiston ichidagi Awesome hamjamiyatini boshqaradi. Awesome hamjamiyati dasturchillar uchun yuqori sifatli resurslar, vositalar va loyihalar roʻyxatlarini tanlaydi va saqlaydi.\n\nGitHubdagi mashhur 'awesome roʻyxatlar'dan ilhomlangan holda, Bobomurod oʻzbek dasturchilari uchun maxsus moslashtirilgan keng qamrovli resurslar toʻplamlarini yaratishga harakat qilmoqda.\n\nUning tanlash saʼy-harakatlari dasturchilarga foydali vositalar, kutubxonalar va oʻquv resurslarini osonroq topishga yordam beradi."
-    },
-    "links": [
-      {
-        "title": "Website",
-        "url": "https://bobomurod.uz"
-      },
-      {
-        "title": "FLOSS Uzbekistan",
-        "url": "https://floss.uz"
-      }
-    ]
-  },
-  {
-    "id": "husniddin-qurbonboyev",
-    "name": "Husniddin Qurbonboyev",
-    "title": {
-      "en": "Uzbek Ecma Community Manager",
-      "uz": "Oʻzbek Ecma Hamjamiyati Menejeri"
-    },
-    "image": "media/portraits/husniddin-qurbonboyev.jpg",
-    "story": {
-      "en": "Husniddin Qurbonboyev is a community manager for Uzbek Ecma within FLOSS Uzbekistan, supporting the JavaScript developer community alongside the community leads.\n\nHe helps organize events, moderate discussions, and assist developers with their JavaScript-related questions and projects.\n\nHusniddin's contributions help maintain an active and supportive environment for JavaScript developers in Uzbekistan.",
-      "uz": "Husniddin Qurbonboyev FLOSS Oʻzbekiston ichidagi Oʻzbek Ecma hamjamiyati menejeri boʻlib, hamjamiyat yetakchilari bilan birga JavaScript dasturchilari hamjamiyatini qoʻllab-quvvatlaydi.\n\nU tadbirlarni tashkil qilish, muhokamalarni boshqarish va dasturchilarga JavaScript bilan bogʻliq savollari va loyihalarida yordam berishda qatnashadi.\n\nHusniddinning hissalari Oʻzbekistondagi JavaScript dasturchilari uchun faol va qoʻllab-quvvatlovchi muhitni saqlashga yordam beradi."
-    },
-    "links": [
-      {
-        "title": "LinkedIn",
-        "url": "https://www.linkedin.com/in/husniddin-qurbonboyev-8906b5168/"
-      },
-      {
-        "title": "FLOSS Uzbekistan",
-        "url": "https://floss.uz"
-      }
-    ]
-  },
-  {
-    "id": "manuchehr-usmonov",
-    "name": "Manuchehr Usmonov",
-    "title": {
-      "en": "Supporting Organization at FLOSS Uzbekistan",
-      "uz": "FLOSS Oʻzbekiston Yordamchi Tashkiloti"
-    },
-    "image": "media/portraits/manuchehr-usmonov.jpg",
-    "story": {
-      "en": "Manuchehr Usmonov serves in a supporting role at FLOSS Uzbekistan, helping with organizational tasks and community support.\n\nHis work behind the scenes helps keep the organization running smoothly and ensures that community members have the resources they need.\n\nManuchehr's dedication to supporting the open source community in Uzbekistan contributes to the overall success of FLOSS Uzbekistan.",
-      "uz": "Manuchehr Usmonov FLOSS Oʻzbekistonda yordamchi rolda xizmat qiladi, tashkiliy vazifalar va hamjamiyatni qoʻllab-quvvatlashda yordam beradi.\n\nUning sahna ortidagi ishi tashkilotning muammosiz ishlashini taʼminlaydi va hamjamiyat aʼzolari zarur resurslarga ega boʻlishini kafolatlaydi.\n\nManuchehrning Oʻzbekistondagi ochiq kodli hamjamiyatni qoʻllab-quvvatlashga sadoqati FLOSS Oʻzbekistonning umumiy muvaffaqiyatiga hissa qoʻshadi."
-    },
-    "links": [
-      {
-        "title": "Website",
-        "url": "https://manu.uz"
       },
       {
         "title": "FLOSS Uzbekistan",
@@ -415,6 +85,79 @@
     ]
   },
   {
+    "id": "baxrom-raxmatov",
+    "name": "Baxrom Raxmatov",
+    "title": {
+      "en": "Uzbek Localization Community Lead",
+      "uz": "Oʻzbek Mahalliylashtirish Hamjamiyati Yetakchisi"
+    },
+    "image": "media/portraits/baxrom-raxmatov.jpg",
+    "story": {
+      "en": "Baxrom Raxmatov leads the Uzbek Localization community within FLOSS Uzbekistan. His work focuses on translating and localizing open source software into Uzbek language, making technology more accessible to Uzbek-speaking users.\n\nLocalization is crucial for bringing technology to wider audiences, and Baxrom's efforts help ensure that Uzbek speakers can use software in their native language.\n\nThrough his leadership, the community has contributed translations to numerous open source projects, helping bridge the language gap in the tech world.",
+      "uz": "Baxrom Raxmatov FLOSS Oʻzbekiston ichidagi Oʻzbek Mahalliylashtirish hamjamiyatiga yetakchilik qiladi. Uning ishi ochiq kodli dasturiy taʼminotni oʻzbek tiliga tarjima qilish va mahalliylashtirish, texnologiyani oʻzbek tilida soʻzlashuvchilar uchun qulayroq qilishga qaratilgan.\n\nMahalliylashtirish texnologiyani keng auditoriyaga yetkazish uchun juda muhim va Baxromning saʼy-harakatlari oʻzbek tilida soʻzlashuvchilar dasturiy taʼminotdan ona tilida foydalanishini taʼminlashga yordam beradi.\n\nUning yetakchiligi orqali hamjamiyat koʻplab ochiq kodli loyihalarga tarjimalar qoʻshdi va texnologiya olamidagi til toʻsigʻini bartaraf etishga yordam berdi."
+    },
+    "links": [
+      {
+        "title": "GitHub",
+        "url": "https://github.com/bahrom04"
+      },
+      {
+        "title": "FLOSS Uzbekistan",
+        "url": "https://floss.uz"
+      }
+    ]
+  },
+  {
+    "id": "darkhonbek-mamataliev",
+    "name": "Darkhonbek Mamataliev",
+    "title": {
+      "en": "Senior iOS Engineer at TikTok, Creator of Resume Templates",
+      "uz": "TikTok'da Katta iOS Muhandisi, Resume Templates Yaratuvchisi"
+    },
+    "image": "media/portraits/darkhonbek-mamataliev.jpg",
+    "story": {
+      "en": "Darkhonbek Mamataliev is a Senior iOS Engineer at TikTok, previously at Uber and EPAM. Originally from Angren, Uzbekistan, he graduated from Inha University in Tashkent in Computer Science before moving to the United States.\n\nHis most popular open source project is 'resume_templates' with over 380 stars on GitHub - a collection of result-oriented achievement templates that help engineers craft compelling resumes. He also created the iOS Developer Roadmap and various Swift projects.\n\nBeyond coding, Darkhonbek is passionate about mentoring. He co-founded 42mentor.com to help engineers prepare for interviews at top tech companies. He also taught programming to children through Codecraft.uz and gives guest lectures at universities, sharing insights about career growth and engineering life.",
+      "uz": "Darkhonbek Mamataliev TikTok'da Katta iOS Muhandisi boʻlib, avval Uber va EPAM kompaniyalarida ishlagan. Oʻzbekistonning Angren shahridan boʻlib, Toshkentdagi Inha Universitetini Kompyuter fanlari boʻyicha tamomlagan va keyin AQShga koʻchib oʻtgan.\n\nUning eng mashhur ochiq kodli loyihasi GitHubda 380 dan ortiq yulduzga ega 'resume_templates' - muhandislarga jozibali rezyumelar yaratishda yordam beradigan natijaga yoʻnaltirilgan yutuqlar shablonlari toʻplami. U shuningdek iOS Developer Roadmap va turli Swift loyihalarini yaratgan.\n\nDasturlashdan tashqari, Darkhonbek murabbiylikka ishtiyoqli. U muhandislarga yetakchi texnologiya kompaniyalaridagi intervyularga tayyorlanishda yordam berish uchun 42mentor.com saytini hamta'sis etgan. U shuningdek Codecraft.uz orqali bolalarga dasturlash oʻrgatgan va universitetlarda mehmon maʼruzalar oʻqib, karyera oʻsishi va muhandislik hayoti haqida tajribalarini baham koʻradi."
+    },
+    "links": [
+      {
+        "title": "42mentor",
+        "url": "https://www.42mentor.com"
+      },
+      {
+        "title": "GitHub",
+        "url": "https://github.com/darhonbek"
+      },
+      {
+        "title": "Resume Templates",
+        "url": "https://github.com/darhonbek/resume_templates"
+      }
+    ]
+  },
+  {
+    "id": "shaxzod-qudratov",
+    "name": "Shaxzod Qudratov",
+    "title": {
+      "en": "Communities Manager at FLOSS Uzbekistan",
+      "uz": "FLOSS Oʻzbekiston Hamjamiyatlar Menejeri"
+    },
+    "image": "media/portraits/shaxzod-qudratov.jpg",
+    "story": {
+      "en": "Shaxzod Qudratov serves as the Communities Manager at FLOSS Uzbekistan, overseeing the coordination and growth of multiple developer communities under the FLOSS umbrella.\n\nHis role involves facilitating communication between different communities, organizing cross-community events, and ensuring that all communities have the support they need to thrive.\n\nShaxzod's organizational skills and dedication have been key to maintaining the cohesion and growth of the FLOSS Uzbekistan ecosystem.",
+      "uz": "Shaxzod Qudratov FLOSS Oʻzbekistonda Hamjamiyatlar Menejeri sifatida xizmat qiladi, FLOSS soyaboni ostidagi bir nechta dasturchilar hamjamiyatlarining muvofiqlashtirish va rivojlanishini nazorat qiladi.\n\nUning roli turli hamjamiyatlar oʻrtasida muloqotni osonlashtirish, hamjamiyatlararo tadbirlarni tashkil qilish va barcha hamjamiyatlar rivojlanish uchun zarur yordamga ega boʻlishini taʼminlashni oʻz ichiga oladi.\n\nShaxzodning tashkilotchilik qobiliyatlari va sadoqati FLOSS Oʻzbekiston ekotizimining birlik va oʻsishini saqlashda muhim ahamiyatga ega boʻldi."
+    },
+    "links": [
+      {
+        "title": "Website",
+        "url": "https://shakhzod.me"
+      },
+      {
+        "title": "FLOSS Uzbekistan",
+        "url": "https://floss.uz"
+      }
+    ]
+  },
+  {
     "id": "azim-pulat",
     "name": "Azim Pulat",
     "title": {
@@ -446,29 +189,79 @@
     ]
   },
   {
-    "id": "darkhonbek-mamataliev",
-    "name": "Darkhonbek Mamataliev",
+    "id": "rustam-mamadaminov",
+    "name": "Rustam Mamadaminov",
     "title": {
-      "en": "Senior iOS Engineer at TikTok, Creator of Resume Templates",
-      "uz": "TikTok'da Katta iOS Muhandisi, Resume Templates Yaratuvchisi"
+      "en": "Uzbek Ecma (JavaScript) Community Lead",
+      "uz": "Oʻzbek Ecma (JavaScript) Hamjamiyati Yetakchisi"
     },
-    "image": "media/portraits/darkhonbek-mamataliev.jpg",
+    "image": "media/portraits/rustam-mamadaminov.jpg",
     "story": {
-      "en": "Darkhonbek Mamataliev is a Senior iOS Engineer at TikTok, previously at Uber and EPAM. Originally from Angren, Uzbekistan, he graduated from Inha University in Tashkent in Computer Science before moving to the United States.\n\nHis most popular open source project is 'resume_templates' with over 380 stars on GitHub - a collection of result-oriented achievement templates that help engineers craft compelling resumes. He also created the iOS Developer Roadmap and various Swift projects.\n\nBeyond coding, Darkhonbek is passionate about mentoring. He co-founded 42mentor.com to help engineers prepare for interviews at top tech companies. He also taught programming to children through Codecraft.uz and gives guest lectures at universities, sharing insights about career growth and engineering life.",
-      "uz": "Darkhonbek Mamataliev TikTok'da Katta iOS Muhandisi boʻlib, avval Uber va EPAM kompaniyalarida ishlagan. Oʻzbekistonning Angren shahridan boʻlib, Toshkentdagi Inha Universitetini Kompyuter fanlari boʻyicha tamomlagan va keyin AQShga koʻchib oʻtgan.\n\nUning eng mashhur ochiq kodli loyihasi GitHubda 380 dan ortiq yulduzga ega 'resume_templates' - muhandislarga jozibali rezyumelar yaratishda yordam beradigan natijaga yoʻnaltirilgan yutuqlar shablonlari toʻplami. U shuningdek iOS Developer Roadmap va turli Swift loyihalarini yaratgan.\n\nDasturlashdan tashqari, Darkhonbek murabbiylikka ishtiyoqli. U muhandislarga yetakchi texnologiya kompaniyalaridagi intervyularga tayyorlanishda yordam berish uchun 42mentor.com saytini hamta'sis etgan. U shuningdek Codecraft.uz orqali bolalarga dasturlash oʻrgatgan va universitetlarda mehmon maʼruzalar oʻqib, karyera oʻsishi va muhandislik hayoti haqida tajribalarini baham koʻradi."
+      "en": "Rustam Mamadaminov co-leads the Uzbek Ecma community within FLOSS Uzbekistan alongside Diyorbek Rustamjonov. Together, they work to grow the JavaScript developer community in Uzbekistan.\n\nRustam is dedicated to helping developers master JavaScript and related technologies through community events, code reviews, and mentorship.\n\nHis contributions to the community have helped many aspiring developers start their journey in web development and open source.",
+      "uz": "Rustam Mamadaminov Diyorbek Rustamjonov bilan birga FLOSS Oʻzbekiston ichidagi Oʻzbek Ecma hamjamiyatiga hamyetakchilik qiladi. Birgalikda ular Oʻzbekistonda JavaScript dasturchilari hamjamiyatini rivojlantirishga harakat qilmoqdalar.\n\nRustam hamjamiyat tadbirlari, kod koʻrib chiqishlari va murabbiylik orqali dasturchilarga JavaScript va tegishli texnologiyalarni oʻzlashtirishda yordam berishga bagʻishlangan.\n\nUning hamjamiyatga qoʻshgan hissasi koʻplab istiqbolli dasturchilarga veb-dasturlash va ochiq kodli loyihalarda sayohatini boshlashga yordam berdi."
     },
     "links": [
       {
-        "title": "42mentor",
-        "url": "https://www.42mentor.com"
+        "title": "Telegram",
+        "url": "https://t.me/rustamwin_blog"
+      },
+      {
+        "title": "FLOSS Uzbekistan",
+        "url": "https://floss.uz"
+      }
+    ]
+  },
+  {
+    "id": "orzklv",
+    "name": "Orzklv",
+    "title": {
+      "en": "Founder & Leader of FLOSS Uzbekistan",
+      "uz": "FLOSS Oʻzbekiston Asoschisi va Yetakchisi"
+    },
+    "image": "media/portraits/orzklv.jpg",
+    "story": {
+      "en": "Orzklv is the founder and leader of FLOSS Uzbekistan (Free/Libre Open Source Software Uzbekistan), a non-profit organization dedicated to promoting open source culture in Uzbekistan.\n\nUnder his leadership, FLOSS Uzbekistan has grown to become a major hub for the Uzbek developer community, with over 7,500 members across 9 different communities and more than 50 open source projects.\n\nHis vision is to create a collaborative environment where developers can share knowledge, contribute to open source projects, and build a stronger tech community in Central Asia.",
+      "uz": "Orzklv - FLOSS Oʻzbekiston (Free/Libre Open Source Software Uzbekistan) asoschisi va yetakchisi boʻlib, bu notijorat tashkilot Oʻzbekistonda ochiq kodli madaniyatni rivojlantirishga bagʻishlangan.\n\nUning yetakchiligi ostida FLOSS Oʻzbekiston oʻzbek dasturchilar hamjamiyati uchun asosiy markazga aylandi, 9 ta turli hamjamiyatda 7500 dan ortiq aʼzo va 50 dan ortiq ochiq kodli loyihalar mavjud.\n\nUning maqsadi - dasturchilarga bilim almashish, ochiq kodli loyihalarga hissa qoʻshish va Markaziy Osiyoda kuchli texnologik hamjamiyat yaratish uchun hamkorlik muhitini shakllantirish."
+    },
+    "links": [
+      {
+        "title": "Website",
+        "url": "https://orzklv.uz"
       },
       {
         "title": "GitHub",
-        "url": "https://github.com/darhonbek"
+        "url": "https://github.com/orzklv"
       },
       {
-        "title": "Resume Templates",
-        "url": "https://github.com/darhonbek/resume_templates"
+        "title": "FLOSS Uzbekistan",
+        "url": "https://floss.uz"
+      }
+    ]
+  },
+  {
+    "id": "javohir-abdusattorov",
+    "name": "Javohir Abdusattorov",
+    "title": {
+      "en": "Rust Uzbekistan Community Manager",
+      "uz": "Rust Oʻzbekiston Hamjamiyati Menejeri"
+    },
+    "image": "media/portraits/javohir-abdusattorov.jpg",
+    "story": {
+      "en": "Javohir Abdusattorov manages the Rust Uzbekistan community within FLOSS Uzbekistan. Rust has gained significant popularity for its focus on safety, performance, and concurrency.\n\nJavohir works to grow the Rust developer community in Uzbekistan, helping developers learn this powerful systems programming language.\n\nThrough community events and educational content, he has helped introduce many developers to Rust and its unique approach to memory safety.",
+      "uz": "Javohir Abdusattorov FLOSS Oʻzbekiston ichidagi Rust Oʻzbekiston hamjamiyatini boshqaradi. Rust xavfsizlik, unumdorlik va parallellikka eʼtibor qaratgani uchun katta mashhurlikka erishdi.\n\nJavohir Oʻzbekistonda Rust dasturchilari hamjamiyatini rivojlantirishga harakat qilmoqda, dasturchilarga bu kuchli tizim dasturlash tilini oʻrganishda yordam bermoqda.\n\nHamjamiyat tadbirlari va taʼlim kontenti orqali u koʻplab dasturchilarga Rust va uning xotira xavfsizligiga noyob yondashuvini tanishtirdi."
+    },
+    "links": [
+      {
+        "title": "GitHub",
+        "url": "https://github.com/javohir-abdusattorov"
+      },
+      {
+        "title": "Rust Uzbekistan",
+        "url": "https://t.me/rustlanguz"
+      },
+      {
+        "title": "FLOSS Uzbekistan",
+        "url": "https://floss.uz"
       }
     ]
   },
@@ -504,29 +297,236 @@
     ]
   },
   {
-    "id": "sherali-obidov",
-    "name": "Sherali Obidov",
+    "id": "diyorbek-rustamjonov",
+    "name": "Diyorbek Rustamjonov",
     "title": {
-      "en": "Senior Software Engineer at Google, Creator of AlgoDS",
-      "uz": "Google'da Katta Dasturiy Taʼminot Muhandisi, AlgoDS Yaratuvchisi"
+      "en": "Uzbek Ecma (JavaScript) Community Lead",
+      "uz": "Oʻzbek Ecma (JavaScript) Hamjamiyati Yetakchisi"
     },
-    "image": "media/portraits/sherali-obidov.jpg",
+    "image": "media/portraits/diyorbek-rustamjonov.jpg",
     "story": {
-      "en": "Sherali Obidov is a Senior Software Engineer at Google, working on audio and media engines for real-time communications products like Google Fi and Google Voice. Originally from Uzbekistan, he holds a Bachelor's degree from Westminster International University in Tashkent and a Master's in Computer Science from Maharishi University of Management in the USA.\n\nSherali is the creator of AlgoDS, one of the most popular algorithm repositories on GitHub with over 3,400 stars and 600 forks. The repository contains comprehensive implementations of algorithms and data structures in Java, along with solutions to common programming problems. It has become an invaluable resource for developers preparing for technical interviews worldwide.\n\nAs a Certified Java Professional, Sherali has extensive experience with Java ecosystem technologies including Spring Boot, Hibernate, and various databases. Before Google, he worked at SPINS, Key Plan Solution AB, and ViaTashkent. He is also active on LeetCode where he has solved hundreds of algorithmic problems.",
-      "uz": "Sherali Obidov Google kompaniyasida katta dasturiy taʼminot muhandisi boʻlib, Google Fi va Google Voice kabi real vaqt aloqa mahsulotlari uchun audio va media dvigatellarida ishlaydi. Oʻzbekistondan boʻlib, Toshkentdagi Westminster Xalqaro Universitetida bakalavr darajasini va AQShdagi Maharishi Boshqaruv Universitetida Kompyuter fanlari boʻyicha magistr darajasini olgan.\n\nSherali GitHubdagi eng mashhur algoritm repozitoriyalaridan biri boʻlgan AlgoDS yaratuvchisi boʻlib, 3,400 dan ortiq yulduz va 600 forkga ega. Repozitoriya Java tilida algoritmlar va maʼlumotlar tuzilmalarining keng qamrovli amalga oshirilishini, shuningdek keng tarqalgan dasturlash muammolarining yechimlarini oʻz ichiga oladi. U butun dunyo boʻylab texnik intervyularga tayyorlanayotgan dasturchillar uchun bebaho resursga aylandi.\n\nSertifikatlangan Java Professional sifatida Sherali Spring Boot, Hibernate va turli maʼlumotlar bazalari kabi Java ekotizimi texnologiyalari bilan keng tajribaga ega. Google'dan oldin u SPINS, Key Plan Solution AB va ViaTashkent kompaniyalarida ishlagan. U shuningdek LeetCode'da faol boʻlib, yuzlab algoritmik muammolarni yechgan."
+      "en": "Diyorbek Rustamjonov co-leads the Uzbek Ecma community within FLOSS Uzbekistan, focusing on JavaScript and ECMAScript-related technologies.\n\nThe Uzbek Ecma community brings together JavaScript developers from across Uzbekistan to share knowledge, collaborate on projects, and stay updated with the latest developments in the JavaScript ecosystem.\n\nDiyorbek's leadership has helped create a vibrant community where developers can learn modern JavaScript frameworks, Node.js, and web development best practices.",
+      "uz": "Diyorbek Rustamjonov FLOSS Oʻzbekiston ichidagi Oʻzbek Ecma hamjamiyatiga hamyetakchilik qiladi, JavaScript va ECMAScript bilan bogʻliq texnologiyalarga eʼtibor qaratadi.\n\nOʻzbek Ecma hamjamiyati butun Oʻzbekistondagi JavaScript dasturchillarini bilim almashish, loyihalarda hamkorlik qilish va JavaScript ekotizimidagi soʻnggi yangiliklardan xabardor boʻlish uchun birlashtiradi.\n\nDiyorbekning yetakchiligi dasturchilarga zamonaviy JavaScript freymvorklari, Node.js va veb-dasturlash eng yaxshi amaliyotlarini oʻrganish mumkin boʻlgan jonli hamjamiyat yaratishga yordam berdi."
+    },
+    "links": [
+      {
+        "title": "Website",
+        "url": "https://www.xattab.uz"
+      },
+      {
+        "title": "FLOSS Uzbekistan",
+        "url": "https://floss.uz"
+      }
+    ]
+  },
+  {
+    "id": "bobomurod-muminov",
+    "name": "Bobomurod Mo'minov",
+    "title": {
+      "en": "Awesome Community Manager",
+      "uz": "Awesome Hamjamiyati Menejeri"
+    },
+    "image": "media/portraits/bobomurod-muminov.jpg",
+    "story": {
+      "en": "Bobomurod Mo'minov manages the Awesome community within FLOSS Uzbekistan. The Awesome community curates and maintains lists of high-quality resources, tools, and projects for developers.\n\nInspired by the popular 'awesome lists' on GitHub, Bobomurod works to create comprehensive resource collections specifically tailored for Uzbek developers.\n\nHis curation efforts help developers discover useful tools, libraries, and learning resources more easily.",
+      "uz": "Bobomurod Moʻminov FLOSS Oʻzbekiston ichidagi Awesome hamjamiyatini boshqaradi. Awesome hamjamiyati dasturchillar uchun yuqori sifatli resurslar, vositalar va loyihalar roʻyxatlarini tanlaydi va saqlaydi.\n\nGitHubdagi mashhur 'awesome roʻyxatlar'dan ilhomlangan holda, Bobomurod oʻzbek dasturchilari uchun maxsus moslashtirilgan keng qamrovli resurslar toʻplamlarini yaratishga harakat qilmoqda.\n\nUning tanlash saʼy-harakatlari dasturchilarga foydali vositalar, kutubxonalar va oʻquv resurslarini osonroq topishga yordam beradi."
+    },
+    "links": [
+      {
+        "title": "Website",
+        "url": "https://bobomurod.uz"
+      },
+      {
+        "title": "FLOSS Uzbekistan",
+        "url": "https://floss.uz"
+      }
+    ]
+  },
+  {
+    "id": "abdurahmon-mamadiyorov",
+    "name": "Abdurahmon Mamadiyorov",
+    "title": {
+      "en": "Gofer Uzbekistan (Go) Community Lead",
+      "uz": "Gofer Oʻzbekiston (Go) Hamjamiyati Yetakchisi"
+    },
+    "image": "media/portraits/abdurahmon-mamadiyorov.jpg",
+    "story": {
+      "en": "Abdurahmon Mamadiyorov leads the Gofer Uzbekistan community within FLOSS Uzbekistan, dedicated to the Go programming language.\n\nGo has become increasingly popular for building scalable backend services and cloud-native applications, and Abdurahmon works to grow the Go developer community in Uzbekistan.\n\nThrough meetups, tutorials, and open source contributions, he helps developers learn Go and apply it to solve real-world problems.",
+      "uz": "Abdurahmon Mamadiyorov FLOSS Oʻzbekiston ichidagi Gofer Oʻzbekiston hamjamiyatiga yetakchilik qiladi, bu hamjamiyat Go dasturlash tiliga bagʻishlangan.\n\nGo masshtablanadigan backend xizmatlari va bulutga moʻljallangan ilovalarni yaratish uchun tobora ommalashib bormoqda va Abdurahmon Oʻzbekistonda Go dasturchilari hamjamiyatini rivojlantirishga harakat qilmoqda.\n\nUchrashuvlar, qoʻllanmalar va ochiq kodli loyihalarga hissa qoʻshish orqali u dasturchilarga Go tilini oʻrganish va uni haqiqiy muammolarni hal qilishda qoʻllashga yordam beradi."
+    },
+    "links": [
+      {
+        "title": "Website",
+        "url": "https://www.haywan.uz"
+      },
+      {
+        "title": "FLOSS Uzbekistan",
+        "url": "https://floss.uz"
+      }
+    ]
+  },
+  {
+    "id": "shahruz-norimmatov",
+    "name": "Shahruz Norimmatov",
+    "title": {
+      "en": "Xinux Community Manager",
+      "uz": "Xinux Hamjamiyati Menejeri"
+    },
+    "image": "media/portraits/shahruz-norimmatov.jpg",
+    "story": {
+      "en": "Shahruz Norimmatov manages the Xinux community within FLOSS Uzbekistan. Xinux focuses on Linux and open source operating systems, helping users and developers in Uzbekistan adopt and contribute to Linux.\n\nThe Xinux community provides support for Linux users, from beginners to advanced system administrators, and promotes the use of open source alternatives.\n\nShahruz's work has helped grow Linux adoption in Uzbekistan and created a supportive community for open source enthusiasts.",
+      "uz": "Shahruz Norimmatov FLOSS Oʻzbekiston ichidagi Xinux hamjamiyatini boshqaradi. Xinux Linux va ochiq kodli operatsion tizimlarga eʼtibor qaratadi, Oʻzbekistondagi foydalanuvchilar va dasturchilarga Linuxni qabul qilish va unga hissa qoʻshishda yordam beradi.\n\nXinux hamjamiyati boshlangʻich foydalanuvchilardan tortib ilgʻor tizim administratorlarigacha Linux foydalanuvchilariga yordam beradi va ochiq kodli alternativalardan foydalanishni targʻib qiladi.\n\nShahruzning ishi Oʻzbekistonda Linux qabul qilinishini oshirishga va ochiq kodli ishqibozlar uchun qoʻllab-quvvatlovchi hamjamiyat yaratishga yordam berdi."
     },
     "links": [
       {
         "title": "GitHub",
-        "url": "https://github.com/sherxon"
+        "url": "https://github.com/zawkindev"
       },
       {
-        "title": "AlgoDS",
-        "url": "https://github.com/sherxon/AlgoDS"
+        "title": "Xinux",
+        "url": "https://t.me/xinuxuz"
       },
       {
-        "title": "LeetCode",
-        "url": "https://leetcode.com/Sherxon/"
+        "title": "FLOSS Uzbekistan",
+        "url": "https://floss.uz"
+      }
+    ]
+  },
+  {
+    "id": "ahmad-qodirov",
+    "name": "Ahmad Qodirov",
+    "title": {
+      "en": "Functional Programming Community Lead",
+      "uz": "Funksional Dasturlash Hamjamiyati Yetakchisi"
+    },
+    "image": "media/portraits/ahmad-qodirov.jpg",
+    "story": {
+      "en": "Ahmad Qodirov leads the Functional Programming community within FLOSS Uzbekistan. He is passionate about promoting functional programming paradigms and helping developers in Uzbekistan explore languages like Haskell, Elixir, and functional approaches in mainstream languages.\n\nAs a community leader, Ahmad organizes meetups, workshops, and educational content to help developers understand and apply functional programming concepts in their work.\n\nHis dedication to knowledge sharing has helped grow the functional programming community in Uzbekistan and inspired many developers to explore new programming paradigms.",
+      "uz": "Ahmad Qodirov FLOSS Oʻzbekiston ichidagi Funksional Dasturlash hamjamiyatiga yetakchilik qiladi. U funksional dasturlash paradigmalarini targʻib qilish va Oʻzbekistondagi dasturchilarga Haskell, Elixir kabi tillarni va asosiy tillardagi funksional yondashuvlarni oʻrganishda yordam berishga ishtiyoqli.\n\nHamjamiyat yetakchisi sifatida Ahmad dasturchilarga funksional dasturlash tushunchalarini tushunish va qoʻllashda yordam berish uchun uchrashuvlar, seminarlar va taʼlim kontentini tashkil qiladi.\n\nUning bilim almashishga sadoqati Oʻzbekistonda funksional dasturlash hamjamiyatini rivojlantirishga yordam berdi va koʻplab dasturchilarga yangi dasturlash paradigmalarini oʻrganishga ilhom berdi."
+    },
+    "links": [
+      {
+        "title": "Telegram",
+        "url": "https://t.me/programming_everyone"
+      },
+      {
+        "title": "FLOSS Uzbekistan",
+        "url": "https://floss.uz"
+      }
+    ]
+  },
+  {
+    "id": "manuchehr-usmonov",
+    "name": "Manuchehr Usmonov",
+    "title": {
+      "en": "Supporting Organization at FLOSS Uzbekistan",
+      "uz": "FLOSS Oʻzbekiston Yordamchi Tashkiloti"
+    },
+    "image": "media/portraits/manuchehr-usmonov.jpg",
+    "story": {
+      "en": "Manuchehr Usmonov serves in a supporting role at FLOSS Uzbekistan, helping with organizational tasks and community support.\n\nHis work behind the scenes helps keep the organization running smoothly and ensures that community members have the resources they need.\n\nManuchehr's dedication to supporting the open source community in Uzbekistan contributes to the overall success of FLOSS Uzbekistan.",
+      "uz": "Manuchehr Usmonov FLOSS Oʻzbekistonda yordamchi rolda xizmat qiladi, tashkiliy vazifalar va hamjamiyatni qoʻllab-quvvatlashda yordam beradi.\n\nUning sahna ortidagi ishi tashkilotning muammosiz ishlashini taʼminlaydi va hamjamiyat aʼzolari zarur resurslarga ega boʻlishini kafolatlaydi.\n\nManuchehrning Oʻzbekistondagi ochiq kodli hamjamiyatni qoʻllab-quvvatlashga sadoqati FLOSS Oʻzbekistonning umumiy muvaffaqiyatiga hissa qoʻshadi."
+    },
+    "links": [
+      {
+        "title": "Website",
+        "url": "https://manu.uz"
+      },
+      {
+        "title": "FLOSS Uzbekistan",
+        "url": "https://floss.uz"
+      }
+    ]
+  },
+  {
+    "id": "sardor-dushamov",
+    "name": "Sardor Dushamov",
+    "title": {
+      "en": "PHP Uzbekistan Community Lead",
+      "uz": "PHP Oʻzbekiston Hamjamiyati Yetakchisi"
+    },
+    "image": "media/portraits/sardor-dushamov.jpg",
+    "story": {
+      "en": "Sardor Dushamov leads the PHP Uzbekistan community within FLOSS Uzbekistan. PHP remains one of the most widely used languages for web development, and Sardor works to support the PHP developer community in Uzbekistan.\n\nThe PHP Uzbekistan community provides resources for learning modern PHP, Laravel, Symfony, and other PHP frameworks and tools.\n\nSardor's leadership has helped create a supportive environment for PHP developers to share knowledge and collaborate on projects.",
+      "uz": "Sardor Dushamov FLOSS Oʻzbekiston ichidagi PHP Oʻzbekiston hamjamiyatiga yetakchilik qiladi. PHP veb-dasturlash uchun eng koʻp ishlatiladigan tillardan biri boʻlib qolmoqda va Sardor Oʻzbekistondagi PHP dasturchilari hamjamiyatini qoʻllab-quvvatlashga harakat qilmoqda.\n\nPHP Oʻzbekiston hamjamiyati zamonaviy PHP, Laravel, Symfony va boshqa PHP freymvorklari va vositalarini oʻrganish uchun resurslar taqdim etadi.\n\nSardorning yetakchiligi PHP dasturchilari uchun bilim almashish va loyihalarda hamkorlik qilish uchun qoʻllab-quvvatlovchi muhit yaratishga yordam berdi."
+    },
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/sardor-dushamov-ba275b62/"
+      },
+      {
+        "title": "FLOSS Uzbekistan",
+        "url": "https://floss.uz"
+      }
+    ]
+  },
+  {
+    "id": "nodirbek-nomonov",
+    "name": "Nodirbek No'monov",
+    "title": {
+      "en": "Trash Community Manager",
+      "uz": "Trash Hamjamiyati Menejeri"
+    },
+    "image": "media/portraits/nodirbek-nomonov.jpg",
+    "story": {
+      "en": "Nodirbek No'monov manages the Trash community within FLOSS Uzbekistan. The community focuses on helping developers learn from mistakes, debug issues, and share experiences about what not to do in software development.\n\nLearning from failures is an important part of growth, and Nodirbek's community provides a safe space for developers to share and learn from common pitfalls.\n\nHis work helps developers avoid common mistakes and build better software through shared experiences.",
+      "uz": "Nodirbek Noʻmonov FLOSS Oʻzbekiston ichidagi Trash hamjamiyatini boshqaradi. Hamjamiyat dasturchilarga xatolardan oʻrganish, muammolarni tuzatish va dasturiy taʼminot ishlab chiqishda nima qilmaslik kerakligi haqida tajribalarni baham koʻrishga yordam berishga qaratilgan.\n\nMuvaffaqiyatsizliklardan oʻrganish oʻsishning muhim qismidir va Nodirbekning hamjamiyati dasturchilarga keng tarqalgan xatolardan oʻrganish va baham koʻrish uchun xavfsiz muhit yaratadi.\n\nUning ishi dasturchilarga keng tarqalgan xatolardan qochish va umumiy tajribalar orqali yaxshiroq dasturiy taʼminot yaratishga yordam beradi."
+    },
+    "links": [
+      {
+        "title": "Portfolio",
+        "url": "https://portfolio.rarebek.uz"
+      },
+      {
+        "title": "FLOSS Uzbekistan",
+        "url": "https://floss.uz"
+      }
+    ]
+  },
+  {
+    "id": "husniddin-qurbonboyev",
+    "name": "Husniddin Qurbonboyev",
+    "title": {
+      "en": "Uzbek Ecma Community Manager",
+      "uz": "Oʻzbek Ecma Hamjamiyati Menejeri"
+    },
+    "image": "media/portraits/husniddin-qurbonboyev.jpg",
+    "story": {
+      "en": "Husniddin Qurbonboyev is a community manager for Uzbek Ecma within FLOSS Uzbekistan, supporting the JavaScript developer community alongside the community leads.\n\nHe helps organize events, moderate discussions, and assist developers with their JavaScript-related questions and projects.\n\nHusniddin's contributions help maintain an active and supportive environment for JavaScript developers in Uzbekistan.",
+      "uz": "Husniddin Qurbonboyev FLOSS Oʻzbekiston ichidagi Oʻzbek Ecma hamjamiyati menejeri boʻlib, hamjamiyat yetakchilari bilan birga JavaScript dasturchilari hamjamiyatini qoʻllab-quvvatlaydi.\n\nU tadbirlarni tashkil qilish, muhokamalarni boshqarish va dasturchilarga JavaScript bilan bogʻliq savollari va loyihalarida yordam berishda qatnashadi.\n\nHusniddinning hissalari Oʻzbekistondagi JavaScript dasturchilari uchun faol va qoʻllab-quvvatlovchi muhitni saqlashga yordam beradi."
+    },
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/husniddin-qurbonboyev-8906b5168/"
+      },
+      {
+        "title": "FLOSS Uzbekistan",
+        "url": "https://floss.uz"
+      }
+    ]
+  },
+  {
+    "id": "diyorbek-ibragimov",
+    "name": "Diyorbek Ibragimov",
+    "title": {
+      "en": "PHP Uzbekistan Community Manager",
+      "uz": "PHP Oʻzbekiston Hamjamiyati Menejeri"
+    },
+    "image": "media/portraits/diyorbek-ibragimov.jpg",
+    "story": {
+      "en": "Diyorbek Ibragimov is a community manager for PHP Uzbekistan within FLOSS Uzbekistan. He works alongside Sardor Dushamov to support and grow the PHP developer community.\n\nHis contributions include organizing community events, helping newcomers get started with PHP development, and maintaining community resources.\n\nDiyorbek's dedication to the community has helped make PHP Uzbekistan a welcoming place for developers of all skill levels.",
+      "uz": "Diyorbek Ibragimov FLOSS Oʻzbekiston ichidagi PHP Oʻzbekiston hamjamiyati menejeridir. U Sardor Dushamov bilan birga PHP dasturchilari hamjamiyatini qoʻllab-quvvatlash va rivojlantirishda ishlaydi.\n\nUning hissalari hamjamiyat tadbirlarini tashkil qilish, yangi kelganlarga PHP dasturlashni boshlashda yordam berish va hamjamiyat resurslarini saqlashni oʻz ichiga oladi.\n\nDiyorbekning hamjamiyatga sadoqati PHP Oʻzbekistonni barcha darajadagi dasturchillar uchun mehmondo'st joyga aylantirishga yordam berdi."
+    },
+    "links": [
+      {
+        "title": "GitHub",
+        "url": "https://github.com/DikoIbragimov"
+      },
+      {
+        "title": "FLOSS Uzbekistan",
+        "url": "https://floss.uz"
       }
     ]
   }
