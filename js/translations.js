@@ -95,7 +95,7 @@ const translations = {
         'contact.mediaText': "Journalists and media professionals interested in covering this project can reach out via email. We're happy to provide high-resolution images and additional information about featured individuals.",
         
         // Footer
-        'footer.copyright': '© 2025 Faces of Open Source Uzbekistan. All rights reserved.',
+        'footer.copyright': `© ${new Date().getFullYear()} Faces of Open Source Uzbekistan. All rights reserved.`,
         
         // Form Messages
         'form.photoTooLarge': 'Photo is too large! Please upload a file smaller than 5MB.',
@@ -205,7 +205,7 @@ const translations = {
         'contact.mediaText': 'Ushbu loyihani yoritishdan manfaatdor jurnalistlar va OAV mutaxassislari email orqali murojaat qilishlari mumkin. Biz yuqori sifatli rasmlar va namoyish qilingan shaxslar haqida qoʻshimcha maʼlumot berishdan mamnunmiz.',
         
         // Footer
-        'footer.copyright': '© 2025 Ochiq Kodli Oʻzbekiston Yuzlari. Barcha huquqlar himoyalangan.',
+        'footer.copyright': `© ${new Date().getFullYear()} Ochiq Kodli Oʻzbekiston Yuzlari. Barcha huquqlar himoyalangan.`,
         
         // Form Messages
         'form.photoTooLarge': 'Rasm juda katta! Iltimos, 5MB dan kichik fayl yuklang.',
