@@ -141,7 +141,7 @@ const translations = {
         'about.involvedText3': 'tashrif buyurib, ushbu loyiha uchun nomzod taklif qiling.',
         'about.involvedText4': "Ular mashhur loyihani boshqarayotganmi, yirik freymvorklarga hissa qoʻshayotganmi yoki jamiyatga xizmat qiluvchi vositalar yaratayotganmi - biz ularning hikoyasini baham koʻrishni xohlaymiz.",
         'about.credits': 'Minnatdorchilik',
-        'about.creditsText': 'Ushbu loyiha Peter Adamsning',
+        'about.creditsText': 'Ushbu loyiha Peter Adamsning asl loyihasidan ilhomlangan va unga hurmat sifatida yaratilgan:',
         
         // Submit Page
         'submit.title': 'Nomzod Taklif Qilish',
