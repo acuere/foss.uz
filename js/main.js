@@ -1,3 +1,6 @@
+// Store people data globally for language switching
+let peopleData = [];
+
 // Mobile menu toggle
 document.addEventListener('DOMContentLoaded', () => {
     const menuToggle = document.querySelector('.menu-toggle');
@@ -13,7 +16,33 @@ document.addEventListener('DOMContentLoaded', () => {
     if (document.getElementById('gallery')) {
         loadGallery();
     }
+    
+    // Listen for language changes to update gallery titles
+    document.querySelectorAll('.lang-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+            setTimeout(() => {
+                updateGalleryTitles();
+            }, 50);
+        });
+    });
 });
+
+// Update gallery titles when language changes
+function updateGalleryTitles() {
+    if (peopleData.length === 0) return;
+    
+    const lang = getCurrentLanguage();
+    document.querySelectorAll('.gallery-item').forEach(item => {
+        const personId = item.dataset.personId;
+        const person = peopleData.find(p => p.id === personId);
+        if (person) {
+            const titleEl = item.querySelector('.person-title-text');
+            if (titleEl) {
+                titleEl.textContent = getLocalizedText(person.title, lang);
+            }
+        }
+    });
+}
 
 // Load gallery data
 async function loadGallery() {
@@ -41,6 +70,9 @@ async function loadGallery() {
             return;
         }
         
+        // Store people data globally for language switching
+        peopleData = people;
+        
         people.forEach(person => {
             const item = createGalleryItem(person);
             gallery.appendChild(item);
@@ -64,17 +96,29 @@ async function loadGallery() {
     }
 }
 
+// Get localized text from an object with en/uz keys, or return string directly
+function getLocalizedText(textObj, lang) {
+    if (typeof textObj === 'string') {
+        return textObj;
+    }
+    return textObj[lang] || textObj.en || '';
+}
+
 // Create gallery item
 function createGalleryItem(person) {
+    const lang = getCurrentLanguage();
+    const title = getLocalizedText(person.title, lang);
+    
     const item = document.createElement('a');
     item.href = `person.html?id=${person.id}`;
     item.className = 'gallery-item';
+    item.dataset.personId = person.id;
     
     item.innerHTML = `
         <img src="${person.image}" alt="${person.name}" loading="lazy">
         <div class="gallery-item-info">
             <h3>${person.name}</h3>
-            <p>${person.title}</p>
+            <p class="person-title-text">${title}</p>
         </div>
     `;
     
