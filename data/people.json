@@ -382,5 +382,152 @@
         "url": "https://floss.uz"
       }
     ]
+  },
+  {
+    "id": "jahongir-rahmonov",
+    "name": "Jahongir Rahmonov",
+    "title": {
+      "en": "Creator of Alcazar Python Web Framework",
+      "uz": "Alcazar Python Veb Freymvorki Yaratuvchisi"
+    },
+    "image": "media/portraits/jahongir-rahmonov.jpg",
+    "story": {
+      "en": "Jahongir Rahmonov is a Software Engineer currently working at Amazon Web Services, previously at Delivery Hero. Originally from Uzbekistan and a graduate of Westminster International University in Tashkent (WIUT), he is now based in Berlin, Germany.\n\nJahongir is the creator of Alcazar, an educational Python web framework with over 230 stars on GitHub. Alcazar was built to help developers understand how web frameworks work from the ground up, featuring routing, templates, middleware, and even a simple ORM.\n\nHe is also well-known in the developer community for his technical blog at rahmonov.me, where he writes detailed tutorials on building Python web frameworks, Kubernetes, and other software engineering topics. His Stack Overflow reputation of nearly 14,000 points reflects his dedication to helping other developers.",
+      "uz": "Jahongir Rahmonov hozirda Amazon Web Services kompaniyasida, avval Delivery Hero'da ishlaydigan dasturiy taʼminot muhandisi. Oʻzbekistondan boʻlib, Toshkentdagi Westminster Xalqaro Universitetini (WIUT) tamomlagan, hozirda Germaniyaning Berlin shahrida yashaydi.\n\nJahongir GitHubda 230 dan ortiq yulduzga ega boʻlgan Alcazar taʼlimiy Python veb freymvorkining yaratuvchisi. Alcazar dasturchilarga veb freymvorklar qanday ishlashini asosidan tushunishga yordam berish uchun yaratilgan boʻlib, marshrutlash, shablonlar, middleware va hatto oddiy ORM xususiyatlarini oʻz ichiga oladi.\n\nU shuningdek rahmonov.me saytidagi texnik blogi bilan dasturchilar hamjamiyatida taniqli boʻlib, u yerda Python veb freymvorklari yaratish, Kubernetes va boshqa dasturiy taʼminot muhandisligi mavzulari boʻyicha batafsil qoʻllanmalar yozadi. Uning Stack Overflow'dagi 14,000 ga yaqin reputatsiyasi boshqa dasturchilarga yordam berishga sadoqatini koʻrsatadi."
+    },
+    "links": [
+      {
+        "title": "Website",
+        "url": "https://rahmonov.me"
+      },
+      {
+        "title": "GitHub",
+        "url": "https://github.com/rahmonov"
+      },
+      {
+        "title": "Alcazar Framework",
+        "url": "https://github.com/rahmonov/alcazar"
+      },
+      {
+        "title": "Stack Overflow",
+        "url": "https://stackoverflow.com/users/4137194/jahongir-rahmonov"
+      }
+    ]
+  },
+  {
+    "id": "azim-pulat",
+    "name": "Azim Pulat",
+    "title": {
+      "en": "Creator of JPRQ - Open Source Tunnel Service",
+      "uz": "JPRQ - Ochiq Kodli Tunnel Xizmati Yaratuvchisi"
+    },
+    "image": "media/portraits/azim-pulat.jpg",
+    "story": {
+      "en": "Azimjon Pulatov, known as Azim Pulat, is a Software Engineer at Google. Originally from Tashkent, Uzbekistan, he studied Computer Science at the Polish-Japanese Academy of Information Technology and has worked at major tech companies including Amazon and Meta (Facebook).\n\nAzim is the creator of JPRQ (Join Public Router Quickly), an open-source alternative to ngrok with over 1,450 stars on GitHub. JPRQ allows developers to expose their local servers to the internet, supporting HTTP/HTTPS and TCP tunnels with features like custom subdomains and multiple port exposure.\n\nBeyond his open source work, Azim is active in mentoring developers through 42mentor.com, helping others prepare for roles at major tech companies. He shares programming content through his Telegram channel @lazyprogrammer, inspiring the next generation of developers from Uzbekistan.",
+      "uz": "Azimjon Pulatov, Azim Pulat nomi bilan tanilgan, Google kompaniyasida dasturiy taʼminot muhandisi. Oʻzbekistonning Toshkent shahridan boʻlib, Polsha-Yaponiya Axborot Texnologiyalari Akademiyasida Kompyuter fanlari boʻyicha taʼlim olgan va Amazon hamda Meta (Facebook) kabi yirik texnologiya kompaniyalarida ishlagan.\n\nAzim GitHubda 1,450 dan ortiq yulduzga ega boʻlgan JPRQ (Join Public Router Quickly) - ngrok uchun ochiq kodli alternativaning yaratuvchisi. JPRQ dasturchilarga mahalliy serverlarini internetga ochishga imkon beradi, maxsus subdomenlar va bir nechta portlarni ochish kabi xususiyatlar bilan HTTP/HTTPS va TCP tunnellarini qoʻllab-quvvatlaydi.\n\nOchiq kodli ishidan tashqari, Azim 42mentor.com orqali dasturchilarga murabbiylik qilishda faol boʻlib, boshqalarga yirik texnologiya kompaniyalaridagi lavozimlarga tayyorlanishda yordam beradi. U @lazyprogrammer Telegram kanali orqali dasturlash kontentini baham koʻradi va Oʻzbekistondan kelgan keyingi avlod dasturchilariga ilhom beradi."
+    },
+    "links": [
+      {
+        "title": "GitHub",
+        "url": "https://github.com/azimjohn"
+      },
+      {
+        "title": "JPRQ",
+        "url": "https://github.com/azimjohn/jprq"
+      },
+      {
+        "title": "Telegram",
+        "url": "https://t.me/lazyprogrammer"
+      },
+      {
+        "title": "42mentor",
+        "url": "https://42mentor.com"
+      }
+    ]
+  },
+  {
+    "id": "darkhonbek-mamataliev",
+    "name": "Darkhonbek Mamataliev",
+    "title": {
+      "en": "Senior iOS Engineer at TikTok, Creator of Resume Templates",
+      "uz": "TikTok'da Katta iOS Muhandisi, Resume Templates Yaratuvchisi"
+    },
+    "image": "media/portraits/darkhonbek-mamataliev.jpg",
+    "story": {
+      "en": "Darkhonbek Mamataliev is a Senior iOS Engineer at TikTok, previously at Uber and EPAM. Originally from Angren, Uzbekistan, he graduated from Inha University in Tashkent in Computer Science before moving to the United States.\n\nHis most popular open source project is 'resume_templates' with over 380 stars on GitHub - a collection of result-oriented achievement templates that help engineers craft compelling resumes. He also created the iOS Developer Roadmap and various Swift projects.\n\nBeyond coding, Darkhonbek is passionate about mentoring. He co-founded 42mentor.com to help engineers prepare for interviews at top tech companies. He also taught programming to children through Codecraft.uz and gives guest lectures at universities, sharing insights about career growth and engineering life.",
+      "uz": "Darkhonbek Mamataliev TikTok'da Katta iOS Muhandisi boʻlib, avval Uber va EPAM kompaniyalarida ishlagan. Oʻzbekistonning Angren shahridan boʻlib, Toshkentdagi Inha Universitetini Kompyuter fanlari boʻyicha tamomlagan va keyin AQShga koʻchib oʻtgan.\n\nUning eng mashhur ochiq kodli loyihasi GitHubda 380 dan ortiq yulduzga ega 'resume_templates' - muhandislarga jozibali rezyumelar yaratishda yordam beradigan natijaga yoʻnaltirilgan yutuqlar shablonlari toʻplami. U shuningdek iOS Developer Roadmap va turli Swift loyihalarini yaratgan.\n\nDasturlashdan tashqari, Darkhonbek murabbiylikka ishtiyoqli. U muhandislarga yetakchi texnologiya kompaniyalaridagi intervyularga tayyorlanishda yordam berish uchun 42mentor.com saytini hamta'sis etgan. U shuningdek Codecraft.uz orqali bolalarga dasturlash oʻrgatgan va universitetlarda mehmon maʼruzalar oʻqib, karyera oʻsishi va muhandislik hayoti haqida tajribalarini baham koʻradi."
+    },
+    "links": [
+      {
+        "title": "42mentor",
+        "url": "https://www.42mentor.com"
+      },
+      {
+        "title": "GitHub",
+        "url": "https://github.com/darhonbek"
+      },
+      {
+        "title": "Resume Templates",
+        "url": "https://github.com/darhonbek/resume_templates"
+      }
+    ]
+  },
+  {
+    "id": "rustam-zokirov",
+    "name": "Rustam Zokirov",
+    "title": {
+      "en": "Software Engineer at Google, Creator of DSA & Python Resources",
+      "uz": "Google'da Dasturiy Taʼminot Muhandisi, DSA va Python Resurslari Yaratuvchisi"
+    },
+    "image": "media/portraits/rustam-zokirov.jpg",
+    "story": {
+      "en": "Rustam Zokirov is a Software Engineer at Google in Munich, Germany, working on the Android EngProd team. Born in 2002 in Samarkand, Uzbekistan, he graduated from Inha University in Tashkent in 2023 and was hired by Google right after graduation.\n\nRustam has created several highly valuable open source resources for developers. His 'data-structures-and-algorithms' repository has over 300 stars and serves as comprehensive notes for learning DSA. His 'senior-python-engineer' repo (140+ stars) covers advanced Python topics, design patterns, and SOLID principles. He also maintains 'cracking-maang' (90+ stars) with tips for FAANG interviews.\n\nBefore Google, Rustam worked at EPAM Systems and Exadel. He actively shares his knowledge through his blog at rustamz.com, helping other developers from Uzbekistan and beyond prepare for careers at top tech companies.",
+      "uz": "Rustam Zokirov Germaniyaning Myunxen shahrida Google kompaniyasida Android EngProd jamoasida dasturiy taʼminot muhandisi. 2002-yilda Oʻzbekistonning Samarqand shahrida tugʻilgan, 2023-yilda Toshkentdagi Inha Universitetini tamomlagan va universitetni tugatgandan soʻng darhol Google tomonidan ishga olingan.\n\nRustam dasturchillar uchun bir nechta juda qimmatli ochiq kodli resurslar yaratgan. Uning 'data-structures-and-algorithms' repozitoriyasi 300 dan ortiq yulduzga ega va DSA oʻrganish uchun keng qamrovli eslatmalar sifatida xizmat qiladi. Uning 'senior-python-engineer' reposi (140+ yulduz) ilgʻor Python mavzulari, dizayn patternlari va SOLID tamoyillarini qamrab oladi. U shuningdek FAANG intervyulari uchun maslahatlar bilan 'cracking-maang' (90+ yulduz) ni saqlaydi.\n\nGoogle'dan oldin Rustam EPAM Systems va Exadel kompaniyalarida ishlagan. U rustamz.com saytidagi blogi orqali bilimlarini faol ravishda baham koʻradi va Oʻzbekiston va undan tashqaridagi boshqa dasturchilarga yetakchi texnologiya kompaniyalarida karyeraga tayyorlanishda yordam beradi."
+    },
+    "links": [
+      {
+        "title": "Website",
+        "url": "https://www.rustamz.com"
+      },
+      {
+        "title": "GitHub",
+        "url": "https://github.com/Rustam-Z"
+      },
+      {
+        "title": "DSA Notes",
+        "url": "https://github.com/Rustam-Z/data-structures-and-algorithms"
+      },
+      {
+        "title": "Cracking MAANG",
+        "url": "https://github.com/Rustam-Z/cracking-maang"
+      }
+    ]
+  },
+  {
+    "id": "sherali-obidov",
+    "name": "Sherali Obidov",
+    "title": {
+      "en": "Senior Software Engineer at Google, Creator of AlgoDS",
+      "uz": "Google'da Katta Dasturiy Taʼminot Muhandisi, AlgoDS Yaratuvchisi"
+    },
+    "image": "media/portraits/sherali-obidov.jpg",
+    "story": {
+      "en": "Sherali Obidov is a Senior Software Engineer at Google, working on audio and media engines for real-time communications products like Google Fi and Google Voice. Originally from Uzbekistan, he holds a Bachelor's degree from Westminster International University in Tashkent and a Master's in Computer Science from Maharishi University of Management in the USA.\n\nSherali is the creator of AlgoDS, one of the most popular algorithm repositories on GitHub with over 3,400 stars and 600 forks. The repository contains comprehensive implementations of algorithms and data structures in Java, along with solutions to common programming problems. It has become an invaluable resource for developers preparing for technical interviews worldwide.\n\nAs a Certified Java Professional, Sherali has extensive experience with Java ecosystem technologies including Spring Boot, Hibernate, and various databases. Before Google, he worked at SPINS, Key Plan Solution AB, and ViaTashkent. He is also active on LeetCode where he has solved hundreds of algorithmic problems.",
+      "uz": "Sherali Obidov Google kompaniyasida katta dasturiy taʼminot muhandisi boʻlib, Google Fi va Google Voice kabi real vaqt aloqa mahsulotlari uchun audio va media dvigatellarida ishlaydi. Oʻzbekistondan boʻlib, Toshkentdagi Westminster Xalqaro Universitetida bakalavr darajasini va AQShdagi Maharishi Boshqaruv Universitetida Kompyuter fanlari boʻyicha magistr darajasini olgan.\n\nSherali GitHubdagi eng mashhur algoritm repozitoriyalaridan biri boʻlgan AlgoDS yaratuvchisi boʻlib, 3,400 dan ortiq yulduz va 600 forkga ega. Repozitoriya Java tilida algoritmlar va maʼlumotlar tuzilmalarining keng qamrovli amalga oshirilishini, shuningdek keng tarqalgan dasturlash muammolarining yechimlarini oʻz ichiga oladi. U butun dunyo boʻylab texnik intervyularga tayyorlanayotgan dasturchillar uchun bebaho resursga aylandi.\n\nSertifikatlangan Java Professional sifatida Sherali Spring Boot, Hibernate va turli maʼlumotlar bazalari kabi Java ekotizimi texnologiyalari bilan keng tajribaga ega. Google'dan oldin u SPINS, Key Plan Solution AB va ViaTashkent kompaniyalarida ishlagan. U shuningdek LeetCode'da faol boʻlib, yuzlab algoritmik muammolarni yechgan."
+    },
+    "links": [
+      {
+        "title": "GitHub",
+        "url": "https://github.com/sherxon"
+      },
+      {
+        "title": "AlgoDS",
+        "url": "https://github.com/sherxon/AlgoDS"
+      },
+      {
+        "title": "LeetCode",
+        "url": "https://leetcode.com/Sherxon/"
+      }
+    ]
   }
 ]
